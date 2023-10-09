@@ -532,3 +532,28 @@ footer{display: none;}
 .btn-paginacao-sesc-eja:hover {
 background-position: right;
 }
+
+.footerPagination{
+  display: block;
+}
+.pagination{
+  justify-content: center;
+}
+.pagination li.active .btn-sesc {
+  transform: translateY(-3px);
+  box-shadow: 2px 2px 2px #333;
+}
+a.btn-sesc {
+  text-decoration: none;
+}
+.visitada:not(.active) a {
+  background-color: #9d9d9d;
+}
+.btn-sesc, .btn-sesc-image {
+  border: 2px solid #00838d;
+  padding: 6px 15px;
+  color: #00838d;
+  font-weight: bold;
+  font-size: 0.8rem;
+  background-color: white;
+}

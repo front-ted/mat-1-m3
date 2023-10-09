@@ -27,4 +27,40 @@ jQuery("document").ready(function($){
             $(".sesc-audio-player.personagem .btn-pause").css("display", "none");
         },
     })
+
+    
+  
+    // script pras páginas já visitadas
+    switch(window.location.search){
+        case '?page=1':
+          localStorage.setItem('pagina1','visitada')
+          break;
+        case '?page=2':
+          localStorage.setItem('pagina2','visitada')
+          break;
+        case '?page=3':
+          localStorage.setItem('pagina3','visitada')
+          break;
+        case '?page=4':
+          localStorage.setItem('pagina4','visitada')
+          break;
+        case '?page=5':
+          localStorage.setItem('pagina5','visitada')
+          break;
+        case '?page=6':
+          localStorage.setItem('pagina6','visitada')
+          break;
+        case '?page=7':
+          localStorage.setItem('pagina7','visitada')
+      }
+      
+      if(localStorage['pagina1']=='visitada'){document.querySelectorAll('.pagination li')[0].classList.add('visitada')}
+      if(localStorage['pagina2']=='visitada'){document.querySelectorAll('.pagination li')[1].classList.add('visitada')}
+      if(localStorage['pagina3']=='visitada'){document.querySelectorAll('.pagination li')[2].classList.add('visitada')}
+      if(localStorage['pagina4']=='visitada'){document.querySelectorAll('.pagination li')[3].classList.add('visitada')}
+      if(localStorage['pagina5']=='visitada'){document.querySelectorAll('.pagination li')[4].classList.add('visitada')}
+      if(localStorage['pagina6']=='visitada'){document.querySelectorAll('.pagination li')[5].classList.add('visitada')}
+      if(localStorage['pagina7']=='visitada'){document.querySelectorAll('.pagination li')[6].classList.add('visitada')}
+    
 });
+
