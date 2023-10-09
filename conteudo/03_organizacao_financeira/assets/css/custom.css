@@ -310,7 +310,9 @@ footer{display: none;}
   bottom: 65px;
   left: 83px;
 }
-
+.painel-gaitinha .accordion-button {
+  font-family: unset;
+}
 .painel2{
   /* background: url('../imgs/painel_clicavel2.png') no-repeat; */
   background-color: #00828a;
@@ -326,7 +328,7 @@ footer{display: none;}
   border: none;
   position: absolute;
   border: none;
-  transition: 1s;
+  transition: 0.3s;
   background-size: 100% !important;
 }
 .bt-text{
