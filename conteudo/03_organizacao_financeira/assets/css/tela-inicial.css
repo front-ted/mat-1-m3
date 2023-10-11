@@ -1,5 +1,5 @@
 body.bg-sesc{
-  background-image: url('../imgs/bg-capa.png');
+  background-image: url('../../conteudo/img/bg.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -62,15 +62,147 @@ a:hover i{color: #fff;}
 
 .title-inical {
   position: absolute;
-  top: 60px;
+  bottom: 5px;
   left: 30px;
-  width: 38vw;
+  width: 335px;
+}
+
+.base-capa{
+  position: absolute;
+  bottom: 0;
+  height: 110px;
+  width: 100%;
+}
+
+.elemento_capa1{
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.elemento_capa2{
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  right: 50%;
+  margin: 0 auto;
+}
+.elemento_capa3{
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  right: 0;
+  margin: 0 auto;
+}
+
+.elemento_capa4, .bt_iniciar{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.elemento_capa4{
+  top: 0px;
+}
+.bt_iniciar{
+  background-image: url('../../conteudo/img/bt_iniciar.png');
+  width: 450px;
+  height: 144px;
+  top: 50%;
+  transition: all 0.3s;
+}
+.bt_iniciar:hover{
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+  
+/* video */
+.btVideo2 {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 180px;
+}
+.backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(51, 51, 51, .7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-video {
+  background-image: url('../../tela_inicial/video_bg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 754px;
+  height: 572px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper {
+  position: relative;
+  max-width: 100%;
+}
+.modal-video iframe {
+  box-shadow: 2px 2px 2px #333;
+  height: 280px;
+  width: 460px;
+  margin: 10px auto;
+  display: block;
+}
+.modal-video p {
+  font-family: 'Poppins', Arial, sans-serif;
+  color: white;
+  width: 80%;
+  margin: 10px auto;
+  text-align: center;
+}
+#fechar-video {
+  font-family: 'Poppins', Arial, sans-serif;
+  position: absolute;
+  right: 40px;
+  top: -40px;
+  border: none;
+  height: 30px;
+  width: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 4px;
+  background-color: #5ea6a6;
+  border: 1px solid #498080;
+  cursor: pointer;
+}
+#fechar-video:hover {
+  box-shadow: 2px 2px 2px #333;
+}
+
+.btVideo:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1080px){
-  .title-inical  {
+  /* .title-inical  {
     display: none;
+  } */
+  
+  .elemento_capa2{
+    width: 190px;
+    right: unset;
+    left: 0;
   }
+  .elemento_capa3{
+    width: 350px;
+    left: unset;
+    right: 0;
+  }
+
   h2{
     font-size:1.6em;
     width: 69%;
@@ -94,7 +226,19 @@ a:hover i{color: #fff;}
     margin: 50px auto;
   }
 }
-@media screen and (max-width: 480px){
+
+@media screen and (max-width: 950px){
+  
+  .elemento_capa2, .elemento_capa3{ display: none;}
+  .elemento_capa4, .elemento_capa1, .bt_iniciar{
+    max-width: 90%;
+  }
+  .bt_iniciar{
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+/* @media screen and (max-width: 480px){
   body.bg-sesc{
     background-image: url('../imgs/bg-capa-mobile.png');
     background-size: unset !important;
@@ -117,4 +261,4 @@ a:hover i{color: #fff;}
     padding-bottom: 50px;
   }
   ul li a{width: 100%;}
-}
+} */

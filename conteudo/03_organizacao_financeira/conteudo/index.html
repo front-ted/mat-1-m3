@@ -33,7 +33,7 @@
     <header id="topo" class="sesc no-print">
         <img src="../../../assets/img/cabecalho/cabecalho.png" class="d-none d-lg-block img-fluid" alt="">
     </header>
-    <nav class="navbar navbar-expand navbar-light bg-light no-print" aria-hidden="true">
+    <!-- <nav class="navbar navbar-expand navbar-light bg-light no-print" aria-hidden="true">
       
         <div class="collapse navbar-collapse container" id="navbarScroll">
           <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
@@ -45,15 +45,11 @@
               <div class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
                 <button class="bt-close d-none d-lg-block d-md-block d-sm-block"><i class="fa-solid fa-xmark"></i></button>
                 <ul>
-                  <!-- <li><a class="dropdown-item" href="?page=1"><i class="fa-solid fa-angle-right"></i>  Finanças em foco: dívida, crédito e poupança  </a></li> -->
                   <li><a class="dropdown-item" href="?page=1#titulo1"><i class="fa-solid fa-angle-right"></i> Explorando situações cotidianas: porcentagens e acréscimos em ação</a></li>
                   <li><a class="dropdown-item" href="?page=2"><i class="fa-solid fa-angle-right"></i> Crédito e Juros</a></li>
-                  <!-- <li><a class="dropdown-item" href="?page=3"><i class="fa-solid fa-angle-right"></i> Plano Cartesiano</a></li> -->
                   <li><a class="dropdown-item" href="?page=3"><i class="fa-solid fa-angle-right"></i> Ações para sair do superendividamento</a></li>
                   <li><a class="dropdown-item" href="?page=4"><i class="fa-solid fa-angle-right"></i> Investimento</a></li>
-                  <!-- <li><a class="dropdown-item" href="?page=6"><i class="fa-solid fa-angle-right"></i> Consumo Consciente</a></li> -->
                   <li><a class="dropdown-item" href="?page=5"><i class="fa-solid fa-angle-right"></i> Compra à vista e desconto</a></li>
-                  <!-- <li><a class="dropdown-item" href="?page=6"><i class="fa-solid fa-angle-right"></i> Exercícios</a></li> -->
                   <li><a class="dropdown-item" href="?page=6"><i class="fa-solid fa-angle-right"></i> Referências</a></li>
                 </ul>
                 <button class="bt-close d-block d-lg-none d-md-none d-sm-none">Fechar</button>
@@ -63,8 +59,20 @@
         </div>
       <div class="container-fluid">
       </div>
-    </nav>
+    </nav> -->
     <!-- Section principal deve ter o booklet, pois faz parte do print.js -->
+     
+  <div class="dropdown">
+    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="?page=1#titulo1">Explorando situações cotidianas: porcentagens e acréscimos em ação </a></li>
+      <li><a class="dropdown-item" href="?page=2#titulo2">Crédito e Juros</a></li>
+      <li><a class="dropdown-item" href="?page=3#titulo3">Ações para sair do superendividamento </a></li>
+      <li><a class="dropdown-item" href="?page=4#titulo4">Investimento </a></li>
+      <li><a class="dropdown-item" href="?page=5#titulo5">Compra à vista e desconto  </a></li>
+      <li><a class="dropdown-item" href="?page=6#titulo6">Referências </a></li>
+  </div>
     <section id="booklet">
         <!--Dentro do section devemos ter um elemento com a classe paginas, para funcionar a paginação/print-->
         <header class="titulo-conteudo mb-0 print">
@@ -87,16 +95,16 @@
               <!--Título do conteúdo-->
               <!--Conteúdo a partir daqui-->
               <h2 class="tt-principal" id="titulo1">Explorando situações cotidianas: porcentagens e acréscimos em ação </h2>
-              <div class="row">
-                <div class="col-12 col-sm-4 col-md-4 col-lg-4 align-self-center">
+              <!-- <div class="row"> -->
+                <!-- <div class="col-12 col-sm-4 col-md-4 col-lg-4 align-self-center">
                   <img src="../assets/imgs/ilustracao_1.gif" class="img-fluid no-print">
                   <img src="../assets/imgs/ilustracao_1.png" class="only-print" aria-hidden="true">
-                </div>
-                <div class="col-12 col-sm-8 col-md-8 col-lg-8 d-flex align-items-center">
-                  <div>
+                </div> -->
+                <!-- <div class="col-12 col-sm-8 col-md-8 col-lg-8 d-flex align-items-center">
+                  <div> -->
                     <p>No nosso dia a dia, somos expostos a muitas tentações de consumo, como lojas físicas com ofertas e promoções imperdíveis, propagandas de carro, em diferentes meios de comunicação, além das plataformas de comércio on-line e as redes sociais. </p>
-                    <figure>
-                      <img src="" alt="A imagem mostra uma moça jovem com o dedo na boca, com expressão pensativa. Ao redor de sua cabeça, há imagens de diversos itens de consumo, como sacolas de compras, viagens, comércio on-line, cartão de crédito, eletroeletrônicos e preocupação com boletos e juros.">
+                    <figure class="text-center">
+                      <img src="../conteudo/img/fig1.png" class="img-fluid" alt="A imagem mostra uma moça jovem com o dedo na boca, com expressão pensativa. Ao redor de sua cabeça, há imagens de diversos itens de consumo, como sacolas de compras, viagens, comércio on-line, cartão de crédito, eletroeletrônicos e preocupação com boletos e juros.">
                       <figcaption>
                         Figura 1 – Tentações de consumo <br>
                         Fonte: Sesc EAD EJA (2023) 
@@ -106,9 +114,9 @@
                     <p>
                       O endividamento excessivo pode trazer sérias consequências financeiras e, até mesmo, morais, causando um impacto negativo na vida das pessoas, no meio ambiente e na sociedade, não sendo poucos os que vivem nessa situação.  
                     </p>
-                  </div>
+                  <!-- </div>
                 </div>
-              </div>
+              </div> -->
               <div class="row caixa">
                 <p>Uma pesquisa divulgada pelo 
                   <a type="button" class="link-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Serviço de Proteção ao Crédito">
@@ -120,23 +128,33 @@
                   </a>
                     revelou que 37% dos consumidores admitem ter comprado algo que não precisavam nos últimos 30 dias. 
                    </p>
+                <p>Como vimos na reportagem, cerca de 37% dos consumidores admitem ter comprado algo desnecessário. Isso significa que 37 em cada 100 brasileiros têm essa atitude. Na figura a seguir, as pessoas em vermelho representam essa porcentagem em relação ao total de pessoas.  </p>
+
                  
-                   <img src="" alt="A ilustração contém a representação de pessoas organizadas em dez colunas e dez linhas, no total, são 100 pessoas. Há 63 pessoas na cor azul e 37 pessoas na cor vermelha.">
+                   <img src="../assets/imgs/ilustracao_2.png" alt="A ilustração contém a representação de pessoas organizadas em dez colunas e dez linhas, no total, são 100 pessoas. Há 63 pessoas na cor azul e 37 pessoas na cor vermelha.">
               </div>
-              <p>Como vimos na reportagem, cerca de 37% dos consumidores admitem ter comprado algo desnecessário. Isso significa que 37 em cada 100 brasileiros têm essa atitude. Na figura a seguir, as pessoas em vermelho representam essa porcentagem em relação ao total de pessoas.  </p>
-              <div class="row">
+              <!-- <div class="row">
                 <div class="align-self-center">
                   <img src="../assets/imgs/ilustracao_2.png" class="img-fluid">
                   <p class="sr-only no-print">A ilustração contém a representação de pessoas organizadas em dez colunas e dez linhas, no total, são 100 pessoas. Há 63 pessoas na cor azul e 37 pessoas na cor vermelha.  </p>
                 </div>
-              </div>
+              </div> -->
               <p>Nessa mesma situação, temos uma porcentagem que pode ser representada por meio de fração e de número decimal. Observe: </p>
-              <div class="row">
+              
+
+              <figure class="text-center">
+                <img src="../conteudo/img/calculo1.png" class="img-fluid" alt="">
+                <figcaption>
+
+
+                </figcaption>
+              </figure>
+              <!-- <div class="row">
                 <div class="d-flex justify-content-center">
                   <img src="../assets/imgs/gif1.gif" class="img-fluid no-print gif">
                   <img src="../assets/imgs/gif1.png" class="img-fluid only-print" aria-hidden="true">
                 </div>
-              </div>
+              </div> -->
               <p class="sr-only no-print">Cálculo em que 37 por cento é igual a 37 dividido por 100, que também é igual a 37 décimos. </p>
               <p>Esse cálculo é muito importante, pois transformar a porcentagem em decimal nos ajuda a calcular acréscimos e descontos em produtos ou serviços adquiridos no dia a dia.  </p>
              
@@ -185,7 +203,18 @@
                 <p>Eu não tinha dinheiro suficiente para pagar o boleto do meu condomínio antes do vencimento. O valor é de R$ 190,00, como atrasei o pagamento, terei um acréscimo de 4%. Quanto vou pagar ao todo?</p>
               </div>
               <p>Observe as etapas que podem ser utilizadas para responder à pergunta da Emília. </p>
-              <p class="no-print" aria-hidden="true">Clique ou toque nas setas para visualizar o conteúdo. </p>
+              <!-- substituir carrousel por duas imagens -->
+              <figure class="text-center">
+                <img src="../conteudo/img/infog1.png" class="img-fluid" alt="">
+                <figcaption>
+
+
+                </figcaption>
+              </figure>
+
+
+
+              <!-- fim duas imagens -->
   
               <!-- <div id="carouselId" class="carousel slide sesc no-print data-bs-ride" data-bs-interval="false" aria-hidden="true">
                 <div class="carousel-inner" role="listbox">
@@ -231,12 +260,19 @@
                 <p>Assim, Emília pagará ao todo R$ 197,60 </p>
               </div> -->
 
-
               <p>Emília precisa ligar o sinal de alerta, pois teve que pagar a fatura apresentada com atraso.</p>
               <p>Veja agora a situação do Rodrigo, que também terá que pagar com acréscimo uma dívida que está em atraso: </p>
 
-              <img src="" alt="img balao">
-              <p>
+              
+              <figure class="text-center">
+                <img src="../conteudo/img/infog2.png" class="img-fluid" alt="">
+                <figcaption>
+
+
+                </figcaption>
+              </figure>
+              
+              <p class="sr-only no-print">
                 Nossa! Eu me esqueci da mensalidade de setembro do meu curso de inglês, agora terei que pagar com juros. A mensalidade é R$ 360,00, mas terá um acréscimo de 5% devido ao atraso. 
               </p>
               <p>
@@ -247,10 +283,84 @@
               </p>
               <p>Normalmente, consideramos que estamos endividados apenas quando não conseguimos pagar nossas contas. Isso não é verdade, pois quando não conseguimos pagar as dívidas assumidas, já estamos em um patamar de endividamento preocupante, o que pode nos levar a buscar outras fontes de crédito, na tentativa de corrigir o problema.  </p>
 
-              <div class="icone caixa vamosPraticar">
+              <div class="icone caixa praticar">
                 Resolva as atividades propostas e estude um pouco mais sobre as alternativas para evitar o pagamento de juros. 
 
               </div>
+
+              <!-- 1 -->
+              <div class="esquemaDaBru">
+                  <p class="enunciado" tabindex="0">1) O salário de Marisa é R$ 3.250,00 e, em certo mês, ela recebeu um acréscimo em seu salário de 15% como bônus por um serviço realizado. Assinale a opção que indica o valor do acréscimo e quanto ficará o salário final da Marisa após esse acréscimo.  </p>
+                  
+                  <button class="alt-c btn-sesc" title="alternativa: ">
+                    a) R$ 48,70 e R$ 3.298,70  
+                  </button>
+                  <button class="alt-e btn-sesc" title="alternativa: ">
+                    b) R$ 487,50 e R$ 3.737,50  
+                  </button>
+                  <button class="alt-e btn-sesc" title="alternativa: ">
+                    c) R$ 974,00 e R$ 4.224,00
+                  </button>
+                  <button class="alt-e btn-sesc" title="alternativa: ">
+                    d) R$ 1.487,50 e R$ 4.737,50 
+                  </button>
+              </div>
+
+              <!-- 2 -->
+              <div class="esquemaDaBru">
+                  <p class="enunciado" tabindex="0">2) A academia Corpofit cobra de seus clientes R$ 129,00 de mensalidade. Na matrícula, a recepcionista explica que mensalidades pagas com atraso têm uma multa de 3% por dia, adicionada ao valor inicial. Assinale a alternativa que indica qual o valor da multa e o valor total pago pelo cliente após o acréscimo de apenas um dia de atraso.   </p>
+                  
+                  <button class="alt-c btn-sesc" title="alternativa: ">
+                    a) R$ 1,93 e R$ 130,93   
+                  </button>
+                  <button class="alt-e btn-sesc" title="alternativa: ">
+                    b) R$ 7,74 e R$ 136,74   
+                  </button>
+                  <button class="alt-e btn-sesc" title="alternativa: ">
+                    c) R$ 3,87 e R$ 132,87 
+                  </button>
+                  <button class="alt-e btn-sesc" title="alternativa: ">
+                    d) R$ 13,87 e R$ 142,87 
+                  </button>
+              </div>
+
+              
+              <!-- 3 -->
+              <div class="esquemaDaBru">
+                <p class="enunciado" tabindex="0">3) Para realizar a venda de um veículo, uma revendedora cobra o total de 8% de comissão em cima do valor do veículo. Sabendo que um certo carro vale R$ 44.300,00, assinale a alternativa que indica quanto ficarão o valor da comissão e o valor de venda do veículo após o acréscimo desse valor.   </p>
+                
+                <button class="alt-c btn-sesc" title="alternativa: ">
+                  a) R$ 3.544,00 e R$ 47.844,00  
+                </button>
+                <button class="alt-e btn-sesc" title="alternativa: ">
+                  b) R$ 1.772,00 e R$ 46.072,00   
+                </button>
+                <button class="alt-e btn-sesc" title="alternativa: ">
+                  c) R$ 7.088,00 e R$ 51.388,00
+                </button>
+                <button class="alt-e btn-sesc" title="alternativa: ">
+                  d) R$ 354,00 e R$ 44.654,00
+                </button>
+            </div>
+
+            
+              <!-- 4 -->
+              <!-- <div class="esquemaDaBru">
+                <p class="enunciado" tabindex="0">1) O salário de Marisa é R$ 3.250,00 e, em certo mês, ela recebeu um acréscimo em seu salário de 15% como bônus por um serviço realizado. Assinale a opção que indica o valor do acréscimo e quanto ficará o salário final da Marisa após esse acréscimo.  </p>
+                
+                <button class="alt-c btn-sesc" title="alternativa: ">
+                  a) R$ 48,70 e R$ 3.298,70  
+                </button>
+                <button class="alt-e btn-sesc" title="alternativa: ">
+                  b) R$ 487,50 e R$ 3.737,50  
+                </button>
+                <button class="alt-e btn-sesc" title="alternativa: ">
+                  c) R$ 974,00 e R$ 4.224,00
+                </button>
+                <button class="alt-e btn-sesc" title="alternativa: ">
+                  d) R$ 1.487,50 e R$ 4.737,50 
+                </button>
+            </div> -->
 
               <!-- <div class="paginacao-sesc-eja no-print">
                 <a href="../index.html" class="btn-paginacao-sesc-eja volt"></a>
@@ -273,11 +383,15 @@
               <p>
                 Você se lembra daquelas promoções que as lojas fazem quando as estações mudam? Pois é, no mundo da moda, isso é muito comum. Funciona assim: quando muda a estação, as lojas precisam dar espaço às roupas novas que vão entrar. Para isso, elas baixam o preço das roupas da estação passada. 
               </p>
-              <p>
-                Mas cuidado! 
+              
+              <figure class="text-center">
+                <img src="../conteudo/img/fig_placa.png" class="img-fluid" alt="Mas cuidado! Não saia gastando descontroladamente. ">
+                <figcaption>
 
-Não saia gastando descontroladamente. 
-              </p>
+
+                </figcaption>
+              </figure>
+
               <p>
                 É importante usar seu conhecimento em educação financeira nessa hora. Compare os preços e os descontos em várias lojas, pense bem se você realmente precisa daquilo que está comprando e, mais importante ainda, defina um limite para o seu orçamento.  
               </p>
@@ -285,16 +399,51 @@ Não saia gastando descontroladamente.
                 Veja este exemplo: um jovem casal pesquisou sobre promoções nas roupas de verão e decidiu comprar em uma loja que oferecia estas duas opções para pagamento à vista: 
               </p>
               <!--  -->
-              <h1>cards</h1>
-
+              <div class="row">
+                <div class="col-6">
+                  <figure class="text-center">
+                    <img src="../conteudo/img/fig_natalia.png" class="img-fluid" alt="">
+                    <figcaption>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="col-6">
+                  <figure class="text-center">
+                    <img src="../conteudo/img/fig_paulo.png" class="img-fluid" alt="">
+                    <figcaption>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
               <!--  -->
+              <p>
+                Acompanhe as compras realizadas por Natália e seu namorado Paulo em uma loja que estava oferecendo descontos nas roupas de verão. 
+              </p>
+
               <div class="destaque">
-                <img src="img/fig_natalia2.png" alt="">
-                <p>O valor total sem desconto nas compras de Natália é de: 
+                
+              <div class="row">
+                <div class="col-6">
+                  <figure class="text-center">
+                    <img src="../conteudo/img/fig_natalia2.png" class="img-fluid" alt="">
+                    <figcaption>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="col-6">
+                  <figure class="text-center">
+                    <img src="../conteudo/img/fig_paulo2.png" class="img-fluid" alt="">
+                    <figcaption>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+                <!-- <img src="img/fig_natalia2.png" alt=""> -->
+                <p class="sr-only no-print">O valor total sem desconto nas compras de Natália é de: 
                   119,90 + 59,90 = R$ 179,80 </p>
                 <p  class="sr-only no-print">cento e dezenove reais e noventa centavos mais cinquenta e nove reais e noventa centavos igual cento e setenta e nove reais e oitenta centavos. </p>
-                <img src="img/fig_paulo2.png" alt="">
-                <p>
+                <!-- <img src="img/fig_paulo2.png" alt=""> -->
+                <p class="sr-only no-print">
                   O valor total sem desconto nas compras de Paulo é de: 
                   98,00 + 49,90 + 65,90 = R$ 213,80 
                 </p>
@@ -326,9 +475,7 @@ Não saia gastando descontroladamente.
                   <p  class="sr-only no-print">Cento e dezenove reais e noventa centavos mais vinte e nove reais e noventa e cinco centavos, igual a cento e quarenta e nove reais e oitenta e cinco centavos. </p>
                   <p  class="sr-only no-print">Cento e setenta e nove reais e oitenta centavos, menos cento e quarenta e nove reais e oitenta e cinco centavos, igual a vinte e nove reais e noventa e cinco centavos. </p>
                 </div>
-                <div>
-
-                </div>
+                
                 <div>
                   Na compra de três peças, a peça de menor valor é grátis. 
                   Camisa: R$ 98,00 
@@ -351,20 +498,97 @@ Não saia gastando descontroladamente.
                 <p>
                   Veja este outro exemplo: Júlia optou por comprar uma blusa à vista em certa loja, o que lhe permitiu negociar um desconto com o vendedor. 
                 </p>
-                <h1>Criar desenho de uma mulher e um vendedor em uma loja de roupas com balão de falas. </h1>
+                
+                <figure class="text-center">
+                  <img src="../conteudo/img/fig_juliaevendedor.png" class="img-fluid" alt="">
+                  <figcaption>
+                  </figcaption>
+                </figure>
+                
                 <p>
                   Para calcular o preço inicial p da blusa (antes do desconto), considere que o preço após o desconto corresponde a 95% de p, pois: 
                 </p>
-                <img src="" alt="Porcentagem correspondente ao preço inicial cem por cento. Porcentagem correspondente ao desconto sobre o preço total cinco por cento, Porcentagem correspondente ao preço final em relação ao preço inicial. Cálculo de cem, menos cinco, igual a noventa e cinco por cento. ">
+                
+                <figure class="text-center">
+                  <img src="../conteudo/img/esquema.png" class="img-fluid" alt="Porcentagem correspondente ao preço inicial cem por cento. Porcentagem correspondente ao desconto sobre o preço total cinco por cento, Porcentagem correspondente ao preço final em relação ao preço inicial. Cálculo de cem, menos cinco, igual a noventa e cinco por cento.">
+                  <figcaption>
+                  </figcaption>
+                </figure>
+                <!-- <img src="" alt="Porcentagem correspondente ao preço inicial cem por cento. Porcentagem correspondente ao desconto sobre o preço total cinco por cento, Porcentagem correspondente ao preço final em relação ao preço inicial. Cálculo de cem, menos cinco, igual a noventa e cinco por cento. "> -->
                 <p>Para resolver, vamos usar nossos conhecimentos de grandezas diretamente proporcionais. </p>
-                <h1>Recriar como infográfico. Sugestão de um findo de quadro como se fosse escrito a giz. Ex.: </h1>
+
+                <figure class="text-center">
+                  <img src="../conteudo/img/fig_quadro.png" class="img-fluid" alt="">
+                  <figcaption>
+                  </figcaption>
+                </figure>
 
                 <p>Nessas situações, o conhecimento numérico e matemático auxilia nas previsões, estimativas e avaliações sobre as propostas apresentadas. Desse modo, é possível agir com mais segurança e tomar decisões mais assertivas em relação ao consumo e as dívidas.  </p>
                 <p>Vamos exercitar o que aprendemos resolvendo as atividades a seguir. Após, seguindo nossa jornada de estudos, nos aprofundaremos no cálculo de juros. </p>
-                <div class="icone caixa vamospraticar">
+                <div class="icone caixa praticar">
                   Vamos praticar! 
                 </div>
                 <!--  -->
+                
+              <!-- 1 -->
+              <div class="esquemaDaBru">
+                <p class="enunciado" tabindex="0">1. Uma loja on-line oferece desconto de 5% para compras feitas à vista com pagamento no boleto bancário. João decide comprar um notebook que custa R$ 2.399,00. Se ele pagar à vista no boleto, quanto ele economizará com o desconto? </p>
+                
+                <button class="alt-c btn-sesc" title="alternativa: ">
+                  a) João economizará R$ 119,95 no pagamento à vista com boleto bancário.  
+                </button>
+                <button class="alt-e btn-sesc" title="alternativa: ">
+                  b) João economizará R$ 1.199,50 no pagamento à vista com boleto bancário.  
+                </button>
+                <button class="alt-e btn-sesc" title="alternativa: ">
+                  c) João economizará R$ 11,99 no pagamento à vista com boleto bancário.
+                </button>
+                <button class="alt-e btn-sesc" title="alternativa: ">
+                  d) João economizará R$ 5,00 no pagamento à vista com boleto bancário.  
+                </button>
+            </div>
+            <!-- 1 -->
+            <div class="esquemaDaBru">
+              <p class="enunciado" tabindex="0">2. Maria é proprietária de um apartamento em um condomínio e recebeu o boleto de pagamento das despesas do mês no valor total de R$ 240,00. O condomínio oferece um desconto de 2% no valor total do boleto para quem efetuar o pagamento até a data de vencimento. Maria deseja aproveitar esse desconto. Se ela pagar o boleto até a data de vencimento, qual será o valor com o desconto? </p>
+              
+              <button class="alt-c btn-sesc" title="alternativa: ">
+                a) O valor será de R$ 235,20 com o desconto aplicado.   
+              </button>
+              <button class="alt-e btn-sesc" title="alternativa: ">
+                b) O valor será de R$ 192,00 com o desconto aplicado.   
+              </button>
+              <button class="alt-e btn-sesc" title="alternativa: ">
+                c) O valor será de R$ 239,52 com o desconto aplicado.
+              </button>
+              <button class="alt-e btn-sesc" title="alternativa: ">
+                d) O valor será de R$ 238,00 com o desconto aplicado.   
+              </button>
+          </div>
+          <!-- 1 -->
+          <div class="esquemaDaBru">
+            <p class="enunciado" tabindex="0">3. (Adaptado de OBEF/2021) Karina deseja adquirir um novo forno micro-ondas e conseguiu economizar R$ 510,00 para a compra. Após realizar uma pesquisa atenta, ela encontrou as seguintes opções: </p>
+            <p>
+              Loja 1: O forno micro-ondas custa R$ 629,00, mas se comprado à vista, há um desconto de 15%.
+            </p>
+            <p>
+              Loja 2: O mesmo forno micro-ondas custa R$ 679,00, mas se Karina optar pelo pagamento à vista, recebe um desconto de 25,5%. 
+            </p>
+            <p>
+              Com R$ 510,00 em mãos, qual loja Karina deve escolher e qual será o valor final do forno micro-ondas?
+            </p>
+            <button class="alt-c btn-sesc" title="alternativa: ">
+              a) João economizará R$ 119,95 no pagamento à vista com boleto bancário.  
+            </button>
+            <button class="alt-e btn-sesc" title="alternativa: ">
+              b) João economizará R$ 1.199,50 no pagamento à vista com boleto bancário.  
+            </button>
+            <button class="alt-e btn-sesc" title="alternativa: ">
+              c) João economizará R$ 11,99 no pagamento à vista com boleto bancário.
+            </button>
+            <button class="alt-e btn-sesc" title="alternativa: ">
+              d) João economizará R$ 5,00 no pagamento à vista com boleto bancário.  
+            </button>
+        </div>
             
             </div>
           </div>
@@ -391,7 +615,7 @@ Não saia gastando descontroladamente.
               <p>É possível verificar nas mídias que o maior vilão do endividamento é o cartão de crédito.</p>
               <div class="row">
                 <div class="text-center">
-                  <img src="../assets/imgs/jornal.png" class="img-fluid">
+                  <img src="../conteudo/img/infog_juros.png" class="img-fluid">
                 </div>
               </div>
               <div class="sr-only no-print">
@@ -479,8 +703,9 @@ Não saia gastando descontroladamente.
               <p>Nas condições apresentadas, para calcular o juro no valor da fatura, deve-se multiplicar a taxa de juros pelo valor da fatura. Não se esqueça de que a taxa de juros está em percentual e, para realizar os cálculos, deve-se deixá-la em decimal, que é a taxa dividida por 100. O cálculo da fatura de fevereiro ficaria assim: </p>
               <div class="row">
                 <div class="d-flex justify-content-center">
-                  <img src="../assets/imgs/gif4.gif" class="img-fluid no-print gif">
-                  <img src="../assets/imgs/gif4.png" class="img-fluid only-print" aria-hidden="true">
+                  
+                  <img src="../conteudo/img/infografico_juros.png" class="img-fluid">
+                  <!-- <img src="../assets/imgs/gif4.png" class="img-fluid only-print" aria-hidden="true"> -->
                 </div>
               </div>
               <div class="sr-only no-print">
@@ -492,8 +717,8 @@ Não saia gastando descontroladamente.
               <p>Se ela atrasar a fatura de março também, como ficará seu valor? Lembre-se de que a taxa de juros deve ser multiplicada pelo novo valor da fatura, ou seja, R$ 562,50. </p>
               <div class="row">
                 <div class="d-flex justify-content-center">
-                  <img src="../assets/imgs/gif5.gif" class="img-fluid no-print gif">
-                  <img src="../assets/imgs/gif5.png" class="img-fluid only-print" aria-hidden="true">
+                  <img src="../conteudo/img/infografico_juros2.png" class="img-fluid">
+                  <!-- <img src="../assets/imgs/gif5.png" class="img-fluid only-print" aria-hidden="true"> -->
                 </div>
               </div>
               <div class="sr-only no-print">
@@ -571,7 +796,7 @@ Não saia gastando descontroladamente.
               <p>Ao observar a tabela, note que a coluna do total de cada fatura apresenta uma sequência e aumenta seguindo o padrão de multiplicação de 1,125. Esse valor é chamado de razão da sequência. Toda essa sequência é chamada de <strong>progressão geométrica</strong>, pois o seu crescimento considera a multiplicação como um meio de encontrar o próximo termo.  </p>
               <p>Além disso, é possível construir o gráfico de crescimento dos juros, com a ajuda de um <i>software</i> de planilhas eletrônicas. </p>
               <div class="text-center">
-                <img src="../assets/imgs/figura1.png" class="img-fluid">
+                <img src="../assets/imgs/figura1.png" class="img-fluid" alt="Gráfico do total da fatura. No eixo vertical, há os valores em reais de baixo para cima, iniciando em zero seguido de quinhentos, mil, mil e quinhentos, dois mil e dois mil e quinhentos. No eixo horizontal, há o tempo em meses, da esquerda para a direita, iniciando com um mês (fevereiro), dois meses (março), três meses (abril) e assim sucessivamente até chegar a 12 meses (janeiro). No meio do gráfico, há uma linha curvada para cima, representando um crescimento exponencial. ">
                 <p>
                   Figura 2 – Gráfico total da fatura com o crescimento dos juros por mês <br>
                   Fonte: Sesc EAD EJA (2022) 
@@ -601,13 +826,126 @@ Não saia gastando descontroladamente.
               <p>
                 Agora exercite resolvendo as atividades propostas a seguir e continue estudando um pouco mais sobre formas de investir e superar problemas financeiros. 
               </p>
-              <div class="icone caixa atividade">
-
+              
+              <div class="icone caixa praticar">
+                Vamos praticar! 
               </div>
               <!--  -->
-
-
-
+              
+            <!-- 1 -->
+            <div class="esquemaDaBru">
+              <p class="enunciado" tabindex="0">1. Considerando a localização dos pontos por meio de coordenadas (x, y), estudado em plano cartesiano, assinale as coordenadas que indicam a posição correta das jogadoras de acordo com a imagem a seguir.  </p>
+              
+              <figure class="text-center">
+                <img src="../conteudo/img/fig3.png" class="img-fluid" alt="A imagem apresenta as linhas de um campo de futebol desenhado sobre um plano cartesiano com os pontos marcados de acordo com as coordenadas de localização de cada jogadora, seguindo o sentido anti-horário, Marta, quatro vírgula dois, Karla, menos dois vírgula três, Ivana, menos nove vírgula um, Ana, menos quatro vírgula menos dois vírgula cinco, Luísa, três vírgula menos quatro vírgula cinco, e Joana, oito vírgula menos dois vírgula cinco.">
+                <figcaption>
+                  Figura 3 – Campo de futebol no plano cartesiano <br>
+                  Fonte: adaptado de São Paulo (2020)   
+                </figcaption>
+              </figure>
+              
+              <button class="alt-c btn-sesc" title="alternativa: ">
+                a) Marta (2, 3) e Joana (8, -2)   
+              </button>
+              <button class="alt-e btn-sesc" title="alternativa: ">
+                b) Luísa (3, 3) e Ana (-2, -3)
+              </button>
+              <button class="alt-e btn-sesc" title="alternativa: ">
+                c) Karla (-2, 3) e Marta (4, 2)  
+              </button>
+              <button class="alt-e btn-sesc" title="alternativa: ">
+                d) Joana (8, -8) e Ivana (9, -9)  
+              </button>
+          </div>
+          <!-- 2 -->
+          <div class="esquemaDaBru">
+            <p class="enunciado" tabindex="0">2. Júlia tem um saldo devedor no cartão de crédito de R$ 1.000,00 e não realizou o pagamento total da fatura na data de vencimento. O banco cobra juros compostos de 15% ao mês no rotativo do cartão. Ela não conseguiu pagar o valor devido durante três meses. Conforme a tabela a seguir, qual será o saldo devedor aproximado no final do período?  </p>
+            
+            <div class="table-responsive">
+              <table class="sesc">
+                <thead>
+                  <tr>
+                    <th>Saldo devedor  </th>
+                    <th>Juros</th>
+                    <th>Total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td> 1.000,00 </td>
+                    <td> 150,00 </td>
+                    <td> 1.150,00 </td>
+                  </tr>
+                  <tr>
+                    <td>1.150,00 </td>
+                    <td>172,50 </td>
+                    <td>1.322,50 </td>
+                  </tr>
+                  <tr>
+                    <td>1.322,50 </td>
+                    <td>?</td>
+                    <td>?</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            
+            
+            <button class="alt-c btn-sesc" title="alternativa: ">
+              a) R$ 1.345,00    
+            </button>
+            <button class="alt-e btn-sesc" title="alternativa: ">
+              b) R$ 1.520,87
+            </button>
+            <button class="alt-e btn-sesc" title="alternativa: ">
+              c) R$ 1.800,00  
+            </button>
+            <button class="alt-e btn-sesc" title="alternativa: ">
+              d) R$ 2171,25    
+            </button>
+        </div>
+        <!-- 3 -->
+        <div class="esquemaDaBru">
+          <p class="enunciado" tabindex="0">3. Luís realizou uma compra de R$ 500,00 no cartão de crédito. Ele não pagou o valor da fatura na data de vencimento e entrou no rotativo. O banco cobra juros compostos de 12% ao mês no rotativo. Após 2 meses, a dívida de João havia crescido conforme a taxa de juros aplicada. Completando a tabela a seguir, qual será o montante total aproximado que João terá que pagar ao banco?  </p>
+          
+          <div class="table-responsive">
+            <table class="sesc">
+              <thead>
+                <tr>
+                  <th>Saldo devedor  </th>
+                  <th>Juros</th>
+                  <th>Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td> 500,00 </td>
+                  <td> 60,00 </td>
+                  <td> 560,00 </td>
+                </tr>
+                <tr>
+                  <td>560,00 </td>
+                  <td>? </td>
+                  <td>? </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          
+          
+          <button class="alt-c btn-sesc" title="alternativa: ">
+            a)  R$ 540,00    
+          </button>
+          <button class="alt-e btn-sesc" title="alternativa: ">
+            b) R$ 561,60 
+          </button>
+          <button class="alt-e btn-sesc" title="alternativa: ">
+            c) R$ 576,00  
+          </button>
+          <button class="alt-e btn-sesc" title="alternativa: ">
+            d)  R$ 627,20  
+          </button>
+      </div>
               
               <!-- <div class="paginacao-sesc-eja no-print">
                 <a href="index.html?page=1" class="btn-paginacao-sesc-eja volt"></a>
@@ -940,9 +1278,192 @@ Não saia gastando descontroladamente.
               <p>
                 Após praticar um pouco, por meio dos exercícios, vamos seguir a nossa jornada de aprendizado nos aprofundando em outro importante tópico: como investimentos e ações podem evitar e, em alguns casos, ajudar a sair do endividamento. Na sequência, serão exploradas estratégias para economizar e fazer escolhas financeiramente inteligentes. 
               </p>
-              <div class="destaque icone atividade">
-                <p><strong>Vamos praticar? </strong></p>
+               
+              <div class="icone caixa praticar">
+                Vamos praticar! 
               </div>
+              <!--  -->
+              
+            <!-- 1 voltar aqui -->
+            <div class="esquemaDaBru">
+              <p class="enunciado" tabindex="0">1. Uma instituição financeira desempenha o papel de intermediária entre o cliente e os serviços disponíveis no mercado financeiro. Ao considerar um empréstimo, é fundamental buscar todas as informações relevantes antes de contratar qualquer serviço.   </p>
+              <p>
+                Lúcia realizou um empréstimo de R$ 2.000,00 em uma instituição financeira. No contrato, constava que ela deveria pagar o empréstimo após oito meses, com uma taxa de juros simples de 2% ao mês. Qual foi o montante que ela pagou? 
+              </p>
+              
+              <button class="alt-c btn-sesc" title="alternativa: ">
+                a) R$ 2.320,00 
+              </button>
+              <button class="alt-e btn-sesc" title="alternativa: ">
+                b) R$ 320,00
+              </button>
+              <button class="alt-e btn-sesc" title="alternativa: ">
+                c)  R$ 2.000,00   
+              </button>
+              <button class="alt-e btn-sesc" title="alternativa: ">
+                d) R$ 2.040,00
+              </button>
+          </div>
+          <!-- 2 -->
+          <div class="esquemaDaBru">
+            <p class="enunciado" tabindex="0">2. Para adquirir uma motocicleta, Bruna financiou o valor de R$ 5.000,00, a ser quitado em prestações mensais e consecutivas. A primeira prestação, no valor de R$ 1.500,00, venceu um mês após a contratação do financiamento. As amortizações foram constantes, conforme tabela a seguir. 
+            </p>
+            
+            <div class="table-responsive">
+              <table class="sesc">
+                <thead>
+                  <tr>
+                    <th>Períodos </th>
+                    <th>Saldo devedor </th>
+                    <th>Amortização ($)  </th>
+                    <th>Juros ($) </th>
+                    <th>Prestação ($)  </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>0</td>
+                    <td>5.000,00 </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>4.000,00  </td>
+                    <td>1.000,00  </td>
+                    <td>500,00  </td>
+                    <td>1.500,00 </td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>3.000,00 </td>
+                    <td>1.000,00 </td>
+                    <td>400,00  </td>
+                    <td>1.400,00 </td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>2.000,00 </td>
+                    <td>1.000,00 </td>
+                    <td>300,00 </td>
+                    <td>1.300,00 </td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>1.000,00 </td>
+                    <td>1.000,00 </td>
+                    <td>200,00 </td>
+                    <td>1.200,00 </td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>0 </td>
+                    <td> 1.000,00 </td>
+                    <td> 100,00 </td>
+                    <td> 1.100,00 </td>
+                  </tr>
+                  <tr>
+                    <td>Total:</td>
+                    <td>0 </td>
+                    <td>5.000,0 </td>
+                    <td>1.500,0 </td>
+                    <td>6.500,0 </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p>Figura 6 – Tabela de amortização <br>
+
+              Fonte: Sesc EAD EJA (2023) </p>
+              <p>Qual dos gráficos a seguir demonstra o padrão de decrescimento do saldo devedor? </p>
+              
+              <figure class="text-center">
+                <img src="../conteudo/img/fig7.png" class="img-fluid" alt="">
+                <figcaption>
+                  Figura 7 – Gráficos com padrões de saldo devedor 
+                  <br> Fonte: adaptado de Almeida (2017) 
+                </figcaption>
+              </figure>
+              <p class="sr-only no-print">
+                A) gráfico com o eixo y, na vertical, representando os valores em reais e o eixo x, na horizontal, representando os meses. No gráfico tem uma linha linear crescente demonstrando que o valor está aumentando. B) gráfico com o eixo y, na vertical, representando os valores em reais e o eixo x, na horizontal, representando os meses. No gráfico tem uma linha linear decrescente demonstrando que o valor está diminuindo. C) gráfico com o eixo y, na vertical, representando os valores em reais e o eixo x, na horizontal, representando os meses. No gráfico tem uma curva crescente demonstrando que o valor está aumentando exponencialmente. D) gráfico com o eixo y, na vertical, representando os valores em reais e o eixo x, na horizontal, representando os meses. No gráfico tem uma curva crescente demonstrando que o valor está aumentando.
+              </p>
+
+            
+            <button class="alt-e btn-sesc" title="alternativa: ">
+              a) Alternativa A
+            </button>
+            <button class="alt-e btn-sesc" title="alternativa: ">
+              b) Alternativa B
+            </button>
+            <button class="alt-c btn-sesc" title="alternativa: ">
+              c) Alternativa C  
+            </button>
+            <button class="alt-e btn-sesc" title="alternativa: ">
+              d) Alternativa D
+            </button>
+        </div>
+        <!-- 3 -->
+        <div class="esquemaDaBru">
+          <p class="enunciado" tabindex="0">Para responder às questões 3 e 4, utilize os dados fornecidos a seguir.   <br>
+            Maria optou por fazer um investimento de R$ 1.000,00 e, para isso, dirigiu-se a um banco, onde recebeu duas propostas do gerente: 
+          </p>
+          <ul>
+            <li><strong>Opção 1</strong>: um investimento com taxa de juros simples de 8% ao ano, no qual ela pode resgatar o valor a qualquer momento. </li>
+            <li><strong>Opção 2</strong>: um investimento com taxa de juros compostos de 5% ao ano, no qual ela só poderá resgatar o dinheiro após três anos. </li>
+          </ul>
+          <p>
+            Além disso, o gerente apresentou gráficos que permitem acompanhar os montantes no final de cada ano. Com base nessas informações, responda às questões a seguir. 
+          </p>
+          <p>
+            3. Assinale o gráfico que representa um investimento com taxa de juros compostos. 
+          </p>
+          
+          <button class="alt-c btn-sesc" title="alternativa: ">
+            a) 
+            <figure class="text-center">
+              <img src="../conteudo/img/fig8.png" class="img-fluid" alt="A figura mostra um gráfico com o eixo y, na vertical, representando os valores em reais partindo do zero e aumentando de duzentos em duzentos até o valor dois mil e oitocentos e o eixo x, na horizontal, representando o tempo em anos partindo do zero até vinte e três. O gráfico também mostra uma linha reta crescente da esquerda para a direita partindo do valor mil no eixo y e demonstrando que o montante está aumentando de forma linear com o passar dos anos. ">
+              <figcaption>
+                Figura 8 – Gráfico de crescimento linear <br>
+                Fonte: Sesc EAD EJA (2023) 
+              </figcaption>
+            </figure>
+          </button>
+          <button class="alt-e btn-sesc" title="alternativa: ">
+            b) 
+            <figure class="text-center">
+              <img src="../conteudo/img/fig9.png" class="img-fluid" alt="A figura mostra um gráfico com o eixo y, na vertical, representando os valores em reais partindo do zero e aumentando de duzentos em duzentos até o valor dois mil e oitocentos e o eixo x, na horizontal, representando o tempo em anos partindo do zero até vinte e três. O gráfico também mostra uma linha curva crescente da esquerda para a direita partindo do valor mil no eixo y e demonstrando que o montante está aumentando de forma exponencial com o passar dos anos. ">
+              <figcaption>
+                Figura 9 – Gráfico de crescimento exponencial <br>
+                Fonte: Sesc EAD EJA (2023)  
+              </figcaption>
+            </figure>
+          </button>
+      </div>
+      
+            <!-- 4 voltar aqui -->
+            <div class="esquemaDaBru">
+              <p class="enunciado" tabindex="0">4. Comparando os gráficos das duas opções de investimento, levando em consideração que Maria pretende manter o investimento por um período de dez anos e deseja obter o maior rendimento possível nesse período, qual das opções de investimento ela deve escolher para atender a esse objetivo? 
+              </p>
+              
+              <button class="alt-e btn-sesc" title="alternativa: ">
+                a) 
+                <figure class="text-center">
+                  <img src="../conteudo/img/fig9.png" class="img-fluid" alt="A figura mostra um gráfico com o eixo y, na vertical, representando os valores em reais partindo do zero e aumentando de duzentos em duzentos até o valor dois mil e oitocentos e o eixo x, na horizontal, representando o tempo em anos partindo do zero até vinte e três. O gráfico mostra uma linha curva crescente da esquerda para a direita partindo do valor mil no eixo y e demonstrando que o montante está aumentando de forma exponencial com o passar dos anos se cruzando com uma linha reta crescente da esquerda para a direita partindo do valor mil no eixo y e demonstrando que o montante está aumentando de forma linear com o passar dos anos. ">
+                  <figcaption>
+                    Figura 10 – Gráfico de crescimento linear e exponencial <br>
+                    Fonte: Sesc EAD EJA (2023) 
+                  </figcaption>
+                </figure> 
+              </button>
+              <button class="alt-c btn-sesc" title="alternativa: ">
+                b) Investimento com taxa de juros simples de 8% ao ano.  
+              </button>
+              <button class="alt-e btn-sesc" title="alternativa: ">
+                c)   Investimento com taxa de juros compostos de 10% ao ano.  
+
+              </button>
+          </div>
 
 
 
@@ -1091,7 +1612,10 @@ Não saia gastando descontroladamente.
               <p>
                 No <i>mesacast</i> a seguir, você terá uma breve explicação sobre o tema organização e planejamento financeiro, com destaque para a importância de reservar parte do salário para investir em uma poupança. 
               </p>
-              <h1>Início - Mesacast </h1>
+              
+              <figure class="text-center">
+                <img src="../conteudo/img/podcast.png" class="img-fluid" alt="">
+              </figure> 
 
               <div class="sr-only print">
                 <p>Construindo um Futuro Financeiro Sólido: Organização, Planejamento e Investimento </p>
@@ -1375,9 +1899,46 @@ Não saia gastando descontroladamente.
                 Nós vimos ações para sair do superendividamento e estudamos dicas de como podemos mudar esse contexto com ações práticas. Também verificamos estratégias de como poupar nosso dinheiro e realizar um investimento. Então, vamos praticar? No próximo módulo, vamos estudar o consumo consciente. 
               </p>
 
-              <div class="icone caixa vamosPraticar">
-
+              <div class="icone caixa praticar">
+                
               </div>
+                
+            <!-- 1 voltar aqui -->
+            <div class="esquemaDaBru">
+              <p class="enunciado" tabindex="0">1. Todo mês, Paulo usa o limite do cheque especial do banco. Após seis meses utilizando, decidiu que precisava parar de pagar juros. Então, resolveu pesquisar o que fazer para sair do superendividamento que estava. Ao pesquisar, encontrou alguns itens que, para ele, faziam sentido. Assinale a opção que corresponde aos itens que Paulo deve seguir para sair do superendividamento. 
+              </p>
+              
+              <button class="alt-e btn-sesc" title="alternativa: ">
+                a) Tomar consciência da situação; mapear as dívidas; aumentar os gastos e gerar renda extra.  
+              </button>
+              <button class="alt-c btn-sesc" title="alternativa: ">
+                b)  Tomar consciência da situação; mapear as dívidas; reduzir os gastos e gerar renda extra.  
+              </button>
+              <button class="alt-e btn-sesc" title="alternativa: ">
+                c)  Tomar consciência da situação; mapear as dívidas; fazer novas dívidas e gerar renda extra. 
+              </button>
+              <button class="alt-e btn-sesc" title="alternativa: ">
+                d) Tomar consciência da situação; sortear as dívidas para pagamento e aumentar os gastos.  
+              </button>
+          </div>
+          <!-- 2 voltar aqui -->
+          <div class="esquemaDaBru">
+            <p class="enunciado" tabindex="0">2.  Zélia tem uma dívida no cartão de crédito de R$ 1.200,00. Ela não tem o valor para quitar, e o percentual de juros simples por mês é de 15%. O gerente do banco ofereceu uma linha de crédito com juros simples de 2% ao mês e sugeriu parcelar os R$ 1.200,00 em três vezes. Assinale a melhor opção para Zélia sair do endividamento. 
+            </p>
+            
+            <button class="alt-c btn-sesc" title="alternativa: ">
+              a)  Zélia deve aceitar a linha de crédito oferecida pelo gerente.    
+            </button>
+            <button class="alt-e btn-sesc" title="alternativa: ">
+              b)   Zélia deve aceitar a linha de crédito oferecida pelo gerente e, como parcelou a dívida, pode fazer a compra do aspirador de pó que tanto quer no mês seguinte.  
+            </button>
+            <button class="alt-e btn-sesc" title="alternativa: ">
+              c)  Zélia não deve aceitar a linha de crédito oferecida pelo gerente.   
+            </button>
+            <button class="alt-e btn-sesc" title="alternativa: ">
+              d)  Zélia não deve aceitar a linha de crédito oferecida pelo gerente e pagar somente quando conseguir os R$ 1.200,00.  
+            </button>
+        </div>
 
               <!-- <div class="paginacao-sesc-eja no-print">
                 <a href="index.html?page=2" class="btn-paginacao-sesc-eja volt"></a>
@@ -1801,7 +2362,7 @@ Não saia gastando descontroladamente.
           </div> -->
 
 
-          <div class="pb-4 pagina">
+          <div class="pb-4 pagina  estiloReferencias">
             <div class="container">
               <h3 class="tt-principal" id="titulo6">Referências</h3>
               <p>

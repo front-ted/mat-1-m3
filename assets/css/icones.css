@@ -3,7 +3,7 @@
     content: "";
     width: 83px;
     height: 115px;
-    background-color: white;
+    background-color: transparent;
     position: absolute;
     top:-20px;
     left: -30px;   
@@ -11,18 +11,26 @@
 }
 
 .icone.dica::before{
-    background-image: url(../img/ico-dica.png);
+    background-image: url(../img/ico_dica.png);
+    width: 96px;
+    height: 115px;
+    top: -20px;
+    left: -50px;
 }
 
 .icone.praticar::before{
-    background-image: url(../img/ico-praticar.png);
+    background-image: url(../img/ico_vamospraticar.png);
+    width: 90px;
+    height: 115px;
+    top: -20px;
+    left: -45px;
 }
 
 .icone.pergunta::before{
-    background-image: url(../img/ico-pergunta.png);
+    background-image: url(../img/ico_pergunta.png);
 }
 .icone.refletir::before{
-    background-image: url(../img/ico-refletir.png);
+    background-image: url(../img/ico_refletir.png);
 }
 
 .icone.saiba-mais::before{
@@ -30,7 +38,9 @@
 }
 
 .icone.atencao::before{
-    background-image: url(../img/ico-atencao.png);
+    background-image: url(../img/ico_importante.png);
+    width: 105px;
+    left: -60px;
 }
 
 @media print{
