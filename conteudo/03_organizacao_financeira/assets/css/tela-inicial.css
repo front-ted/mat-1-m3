@@ -87,6 +87,7 @@ a:hover i{color: #fff;}
   left: 0;
   right: 50%;
   margin: 0 auto;
+  max-height: 50%;
 }
 .elemento_capa3{
   position: absolute;
@@ -94,6 +95,7 @@ a:hover i{color: #fff;}
   left: 50%;
   right: 0;
   margin: 0 auto;
+  max-height: 50%;
 }
 
 .elemento_capa4, .bt_iniciar{
@@ -187,6 +189,11 @@ a:hover i{color: #fff;}
   cursor: pointer;
 }
 
+@media screen and (max-width: 1366px){
+  .elemento_capa4{
+    max-width: 500px;
+  }
+}
 @media screen and (max-width: 1080px){
   /* .title-inical  {
     display: none;
@@ -230,12 +237,44 @@ a:hover i{color: #fff;}
 @media screen and (max-width: 950px){
   
   .elemento_capa2, .elemento_capa3{ display: none;}
-  .elemento_capa4, .elemento_capa1, .bt_iniciar{
+  .elemento_capa4{
+    width: 90%;
+  }
+  .elemento_capa1, .bt_iniciar{
     max-width: 90%;
   }
   .bt_iniciar{
     background-size: 100%;
     background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 750px){
+  .modal-video {
+    background-color: #008085;
+    background-image: none;
+  }
+}
+@media screen and (max-width: 550px){
+  .modal-video iframe {
+    margin: 0px auto;
+    max-width: 90%;
+  }
+  .bt_iniciar {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    top: 240px;
+  }
+  .btVideo2 {
+    position: absolute;
+    right: 0px;
+    top: 370px;
+    left: 0;
+    margin: 0 auto;
+  }
+  .modal-video {
+    background-color: #008085;
+    background-image: none;
   }
 }
 /* @media screen and (max-width: 480px){
