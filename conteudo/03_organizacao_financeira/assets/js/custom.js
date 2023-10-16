@@ -60,7 +60,9 @@ jQuery("document").ready(function($){
       if(localStorage['pagina4']=='visitada'){document.querySelectorAll('.pagination li')[3].classList.add('visitada')}
       if(localStorage['pagina5']=='visitada'){document.querySelectorAll('.pagination li')[4].classList.add('visitada')}
       if(localStorage['pagina6']=='visitada'){document.querySelectorAll('.pagination li')[5].classList.add('visitada')}
-      if(localStorage['pagina7']=='visitada'){document.querySelectorAll('.pagination li')[6].classList.add('visitada')}
+      // if(localStorage['pagina7']=='visitada'){document.querySelectorAll('.pagination li')[6].classList.add('visitada')}
+
+      AOS.refresh();
     
 });
 
