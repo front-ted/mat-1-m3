@@ -3,12 +3,7 @@ body {
   background-image: url("../../conteudo/img/bg.png");
   background-size: 100%;
 }
-<<<<<<< HEAD
-p {
-  word-wrap: break-word;
-}
-.caixa {
-=======
+
 p{word-wrap: break-word;}
 /* card rotate */
 .cardpreco, .cardpreco2{
