@@ -3,10 +3,35 @@ body {
   background-image: url("../../conteudo/img/bg.png");
   background-size: 100%;
 }
+<<<<<<< HEAD
 p {
   word-wrap: break-word;
 }
 .caixa {
+=======
+p{word-wrap: break-word;}
+/* card rotate */
+.cardpreco, .cardpreco2{
+  position: absolute;
+    left: 0;
+    top: 210px;
+    transform: rotate(25deg);
+    width: 200px;
+}
+.cardpreco{
+    transform: rotate(25deg);
+}
+.cardpreco2{
+  transform: rotate(-25deg);
+  top: 250px;
+
+}
+.cardpreco_box{
+  position: relative;
+}
+/*  */
+.caixa{
+>>>>>>> dfceaca0e22506715fb788c738d7e49a44aa6297
   /* border-color: #00828b; */
   margin: 20px auto;
   border: none;
@@ -487,9 +512,16 @@ footer {
     max-width: 80%;
   }
 }
-@media screen and (max-width: 580px) {
-  .painel1 {
-    background-image: url("../imgs/painel1_mobile.png");
+
+@media screen and (max-width: 700px){
+  .cardpreco, .cardpreco2{
+    width: 120px;
+    left: 20px;
+  }
+}
+@media screen and (max-width: 580px){
+  .painel1{
+    background-image: url('../imgs/painel1_mobile.png');
     background-size: cover;
     width: 100%;
     height: auto;
