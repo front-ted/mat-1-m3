@@ -4,6 +4,26 @@ body{
   background-size: 100%;
 }
 p{word-wrap: break-word;}
+/* card rotate */
+.cardpreco, .cardpreco2{
+  position: absolute;
+    left: 0;
+    top: 210px;
+    transform: rotate(25deg);
+    width: 200px;
+}
+.cardpreco{
+    transform: rotate(25deg);
+}
+.cardpreco2{
+  transform: rotate(-25deg);
+  top: 250px;
+
+}
+.cardpreco_box{
+  position: relative;
+}
+/*  */
 .caixa{
   /* border-color: #00828b; */
   margin: 20px auto;
@@ -434,6 +454,13 @@ footer{display: none;}
     margin-bottom: -100px;
   }
   .modal-dialog{max-width: 80%;}
+}
+
+@media screen and (max-width: 700px){
+  .cardpreco, .cardpreco2{
+    width: 120px;
+    left: 20px;
+  }
 }
 @media screen and (max-width: 580px){
   .painel1{
