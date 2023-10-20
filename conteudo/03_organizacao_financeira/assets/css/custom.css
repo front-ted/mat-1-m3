@@ -5,6 +5,9 @@ body {
 }
 
 p{word-wrap: break-word;}
+.imgMaxwi{
+  max-width: 650px;
+}
 /* card rotate */
 .cardpreco, .cardpreco2{
   position: absolute;
@@ -265,8 +268,8 @@ footer {
 }
 
 .bt-modal {
-  width: 217px;
-  height: 75px;
+  width: 260px;
+  height: 90px;
   border: none;
   margin-top: 20px;
   margin-bottom: 20px;
