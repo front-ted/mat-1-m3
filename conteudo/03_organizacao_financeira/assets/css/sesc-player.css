@@ -1,11 +1,11 @@
 /*sesc audio player*/
-.sesc-audio-player {
+.sesc-audio-player{
     width: 200px;
     background-color: transparent;
     justify-content: center;
     align-items: center;
-    margin: 161px auto 125px auto;
-  }
+    margin: -160px auto 40px auto;
+}
 .sesc-audio-player .timestamp{
     display: inline-block;
     vertical-align: text-top;

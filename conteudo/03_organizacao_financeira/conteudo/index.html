@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="../assets/css/aos.css">
     <link rel="stylesheet" href="../assets/css/all.min.css">
     <link rel="stylesheet" href="../assets/css/custom.css">
+    <link rel="stylesheet" href="../../../assets/css/sesc-player.css">
 
 
 </head>
@@ -118,6 +119,10 @@
                   <!-- </div>
                 </div>
               </div> -->
+              <div class="only-print">
+                <p>SPC-Brasil: Serviço de Proteção ao Crédito</p>
+                <p>CNDL: Confederação Nacional de Dirigentes Lojistas</p>
+              </div>
               <div class="row caixa aos-init aos-animate" data-aos="zoom-in">
                 <p>Uma pesquisa divulgada pelo 
                   <a type="button" class="link-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Serviço de Proteção ao Crédito">
@@ -132,7 +137,7 @@
                 <p>Como vimos na reportagem, cerca de 37% dos consumidores admitem ter comprado algo desnecessário. Isso significa que 37 em cada 100 brasileiros têm essa atitude. Na figura a seguir, as pessoas em vermelho representam essa porcentagem em relação ao total de pessoas.  </p>
 
                  
-                   <img src="../assets/imgs/ilustracao_2.png" class="aos-init aos-animate" data-aos="zoom-in" alt="A ilustração contém a representação de pessoas organizadas em dez colunas e dez linhas, no total, são 100 pessoas. Há 63 pessoas na cor azul e 37 pessoas na cor vermelha.">
+                   <img src="../assets/imgs/ilustracao_2.png" class="aos-init aos-animate img-pessoas" data-aos="zoom-in"  alt="A ilustração contém a representação de pessoas organizadas em dez colunas e dez linhas, no total, são 100 pessoas. Há 63 pessoas na cor azul e 37 pessoas na cor vermelha.">
               </div>
               <!-- <div class="row">
                 <div class="align-self-center">
@@ -332,7 +337,7 @@
                     </p>
                   </div>
                   <div class="only-print">
-                    <!-- <p>Gabarito: A</p> -->
+                    <p>Gabarito: B</p>
                   </div>
               </div>
 
@@ -371,7 +376,7 @@
                     </p>
                   </div>
                   <div class="only-print">
-                    <!-- <p>Gabarito: A</p> -->
+                    <p>Gabarito: C</p>
                   </div>
               </div>
 
@@ -411,7 +416,7 @@
                   </p>
                 </div>
                 <div class="only-print">
-                  <!-- <p>Gabarito: A</p> -->
+                  <p>Gabarito: A</p>
                 </div>
                 
                 
@@ -589,22 +594,77 @@
         </div>
         </div>
       </div> -->
+      <div class="row">
+        <div class="col">
+          <!-- <img src="../conteudo/img/bt_natalia.png" class="img-fluid aos-init aos-animate" data-aos="fade-right" alt=""> -->
+          
+          <div class="bt_natalia img-fluid aos-init aos-animate" data-aos="fade-right" data-bs-toggle="modal" data-bs-target="#bt_natalia"></div>
+        </div>
+        <div class="col">
+          <!-- <img src="../conteudo/img/bt_paulo.png" class="img-fluid aos-init aos-animate" data-aos="fade-left" alt=""> -->
+          <div class="bt_paulo img-fluid aos-init aos-animate" data-aos="fade-left" data-bs-toggle="modal" data-bs-target="#bt_paulo"></div>
 
-              <h1>botes lado a lado (gaitinha?)</h1>
+        </div>
+      </div>
+      <!-- <div class="painel-bts">
+        <div class="bt_natalia" data-bs-toggle="modal" data-bs-target="#bt_natalia"></div>
+        <div class="bt_paulo" data-bs-toggle="modal" data-bs-target="#bt_paulo"></div>
+      </div> -->
+    <div class="modal fade no-print" id="bt_natalia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Natália - Opção 1  </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            
+            <p> Na compra de duas peças, desconto de 50% na peça de menor valor.  </p>
+            <p> Calça: R$ 119,90  </p>
+            <p> Camiseta: R$ 59,90  </p>
+            <p> A peça de menor valor é a camiseta, então vamos aplicar o desconto nela. Observe:  </p>
+            <p> 50% de 59,90  </p>
+            <p> 50/100 . 59,90  </p>
+            <p> 0,50 . 59,90  </p>
+            <p> 29,95  </p>
+            <p> Assim, o valor de desconto é R$ 29,95. Logo, o valor final da peça de roupa será de R$ 29,95 (59,90 - 29,95).  </p>
+            <p> Para saber o total das compras de Natália, precisamos somar o valor das duas peças de roupa:  </p>
+            <p> 119,90 + 29,95 = R$ 149,85  </p>
+            <p> 179,80 - 149,85 = 29,95  </p>
+            <p> Dessa forma, Natália economizou:  </p>
+            <p>179,80 - 149,85 = 29,95</p>
+            
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade no-print" id="bt_paulo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Paulo - Opção 2 </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p> Na compra de três peças, a peça de menor valor é grátis. </p>
+            <p> Camisa: R$ 98,00 </p>
+            <p> Camiseta: R$ 49,90 </p>
+            <p> Bermuda: R$ 65,90 </p>
+            <p> A peça de menor valor é a camiseta, que será gratuita, por isso não é necessário somar seu valor às outras peças. Para saber o total p das compras de Paulo, precisamos somar o valor das duas peças de roupas restantes: </p>
+            <p> 98,00 + 65,90 = 163,90. </p>
+            <p> Dessa forma, Paulo economizou: </p>
+            <p> 213,80 - 163,90 = R$ 49,90. </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
                 <div>
-                  Na compra de duas peças, desconto de 50% na peça de menor valor. 
-                  Calça: R$ 119,90 
-                  Camiseta: R$ 59,90 
-                  A peça de menor valor é a camiseta, então vamos aplicar o desconto nela. Observe: 
-                  50% de 59,90 
-                  50/100 . 59,90 
-                  0,50 . 59,90 
-                  29,95 
-                  Assim, o valor de desconto é R$ 29,95. Logo, o valor final da peça de roupa será de R$ 29,95 (59,90 - 29,95). 
-                  Para saber o total das compras de Natália, precisamos somar o valor das duas peças de roupa: 
-                  119,90 + 29,95 = R$ 149,85 
-                  179,80 - 149,85 = 29,95 
-                  Dessa forma, Natália economizou: 
                   <p  class="sr-only no-print">Cinquenta por cento de cinquenta e nove reais e noventa centavos. </p>
                   <p  class="sr-only no-print">Cinquenta dividido por cem, vezes cinquenta e nove reais e noventa centavos. </p>
                   <p  class="sr-only no-print">Cinquenta centésimos, vezes cinquenta e nove reais e noventa centavos. </p>
@@ -613,23 +673,12 @@
                   <p  class="sr-only no-print">Cento e dezenove reais e noventa centavos mais vinte e nove reais e noventa e cinco centavos, igual a cento e quarenta e nove reais e oitenta e cinco centavos. </p>
                   <p  class="sr-only no-print">Cento e setenta e nove reais e oitenta centavos, menos cento e quarenta e nove reais e oitenta e cinco centavos, igual a vinte e nove reais e noventa e cinco centavos. </p>
                 </div>
-                
                 <div>
-                  Na compra de três peças, a peça de menor valor é grátis. 
-                  Camisa: R$ 98,00 
-                  Camiseta: R$ 49,90 
-                  Bermuda: R$ 65,90 
-                  A peça de menor valor é a camiseta, que será gratuita, por isso não é necessário somar seu valor às outras peças. Para saber o total das compras de Paulo, precisamos somar o valor das duas peças de roupas restantes: 
-                  98,00 + 65,90 = 163,90. 
-                  Dessa forma, Paulo economizou: 
-                  213,80 - 163,90 = R$ 49,90. 
-                  
-                  
+                  <p class="sr-only">
+                    Noventa e oito reais, mais sessenta e cinco reais e noventa centavos, igual a cento e sessenta e três reais e noventa centavos. 
+                    Duzentos e treze reais e oitenta centavos, menos cento e sessenta e três reais e noventa centavos, igual a quarenta e nove reais e noventa centavos. 
+                  </p>
                 </div>
-                <p class="sr-only">
-                  Noventa e oito reais, mais sessenta e cinco reais e noventa centavos, igual a cento e sessenta e três reais e noventa centavos. 
-                  Duzentos e treze reais e oitenta centavos, menos cento e sessenta e três reais e noventa centavos, igual a quarenta e nove reais e noventa centavos. 
-                </p>
                 <p> 
                   Nesse exemplo, vimos que as promoções de roupas durante as trocas de estação são uma oportunidade para os consumidores economizarem dinheiro. Essa prática é comum no varejo de moda e pode ser vantajosa a todos os envolvidos. Além desses momentos de promoções, também é possível conseguir outros descontos pagando à vista.  
                 </p>
@@ -705,7 +754,7 @@
                   </p>
                 </div>
                 <div class="only-print">
-                  <!-- <p>Gabarito: A</p> -->
+                  <p>Gabarito: A</p>
                 </div>
                 
                 
@@ -746,7 +795,7 @@
                 </p>
               </div>
               <div class="only-print">
-                <!-- <p>Gabarito: A</p> -->
+                <p>Gabarito: A</p>
               </div>
               
               
@@ -795,7 +844,7 @@
               </p>
             </div>
             <div class="only-print">
-              <!-- <p>Gabarito: A</p> -->
+              <p>Gabarito: C</p>
             </div>
             
             
@@ -810,10 +859,10 @@
               <p>Geralmente, quando a pessoa não tem dinheiro suficiente para alguma compra ou serviço, ela acaba recorrendo ao uso de algum crédito. O crédito é uma fonte adicional de recursos que não são seus, mas obtidos de terceiros, como bancos, financeiras, cooperativas de crédito e outros, possibilitando a antecipação do consumo para a aquisição de bens ou contratação de serviços. Existem várias modalidades de crédito, por exemplo:</p>
               <div class="row">
                 <div class="text-center">
-                  <img src="../assets/imgs/infografico.png" class="img-fluid">
+                  <img src="../conteudo/img/infografico_creditos.png" class="img-fluid infografico_creditos">
                 </div>
               </div>
-              <div class="sr-only print">
+              <div class="sr-only no-print">
                 <ul>
                   <li>Limite do cheque especial </li>
                   <li>Cartão de crédito</li>
@@ -1015,19 +1064,63 @@
               <p>No gráfico, é possível observar um crescimento <strong>exponencial</strong>, pois os juros sobre a fatura do cartão de crédito são compostos. O crescimento exponencial significa crescer várias vezes rapidamente, parecendo tornar-se matematicamente “incontrolável” ou exponencial. À medida que a quantidade aumenta, aumenta também a taxa na qual ele cresce. </p>
               
               <p>O gráfico apresentado foi construído com base em um plano cartesiano, em que, na linha horizontal, representando o eixo <strong>x</strong>, há o tempo em meses, e na linha vertical, representando o eixo <strong>y</strong>, há os valores em reais. Você se lembra do plano cartesiano?  </p>
-              <p>Veja mais sobre as representações gráficas no plano cartesiano no vídeo a seguir: </p>
+              <p>Veja mais sobre as representações gráficas no plano cartesiano <span class="no-print"> no vídeo a seguir</span>: </p>
               <iframe class="youtube-pl" width="560" height="315" src="https://www.youtube.com/embed/xYewh6aDubY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="only-print" aria-hidden="true">
-                <p>Todos os dias, nos deparamos com situações em que precisamos nos localizar ou localizar algo em determinado espaço. Atividades simples, como estacionar um carro, caminhar pela rua, ter cuidado para não bater em obstáculos, são ações e situações para as quais precisamos de coordenadas. Ao utilizar essas coordenadas, estamos, na verdade, aplicando uma ferramenta matemática chamada plano cartesiano. </p>
-                <p>Outra aplicação bastante utilizada do plano cartesiano é a determinação de localização por meio de coordenadas geográficas de latitude e longitude por meio do GPS, sigla em inglês para sistema de posicionamento global. O GPS utiliza uma rede de satélites em órbita em torno do planeta para triangular e determinar a localização, altitude e velocidade de algo ou de alguém, além de diversas outras funções. </p>
-                <p>A nossa visão também faz uso do plano cartesiano para localizarmos objetos em uma fração de segundos. Esse plano também é utilizado, por exemplo, tanto no desenvolvimento de plantas para a construção civil quanto na simples ação de acessarmos as funções oferecidas pelo nosso celular. </p>
-                <p>O sistema de coordenadas cartesianas, também chamado de plano cartesiano, foi criado pelo filósofo e matemático francês René Descartes, com o objetivo de localizar pontos em um plano. </p>
-                <p>O plano cartesiano consiste em um gráfico formado por duas retas perpendiculares, divididas por números em suas extensões. Cada número pode ser compreendido como um “endereço” para determinado ponto na reta. </p>
-                <p>A reta horizontal, representada pela letra X, apresenta as abscissas e a reta vertical, representada pela letra Y, apresenta as ordenadas. </p>
-                <p>Os números das abscissas e das ordenadas são utilizados para determinar a localização de pontos no plano, sendo que o primeiro número deve ser colocado no eixo das abscissas e o segundo número no eixo das ordenadas. Assim, o encontro desses valores determina o ponto procurado. </p>
-                <p>Um exemplo de localização de pontos em um plano cartesiano por meio de coordenadas são os locais de uma cidade. O centro da cidade pode ser representado no centro do plano e os locais, com valores de abscissa e ordenadas apresentadas em quilômetros, são localizados no plano de acordo com suas coordenadas, como neste exemplo. </p>
-                <p>O centro da cidade está localizado na coordenada zero, zero; a escola está localizada na coordenada três, dois; o banco está em menos três, dois; a prefeitura está em menos dois, menos três; e a igreja em três, menos dois. </p>
-                <p>Assim, temos a localização desses locais da cidade.</p>
+                <p>Como localizamos objetos, lugares, informações e pessoas em um espaço? </p>
+                <p>Você sabia?   </p>
+                <p>
+                  Diariamente nos deparamos com diversas situações que necessitamos nos localizar ou localizar algo em um determinado espaço, este tipo de organização faz parte de diversas situações do nosso dia a dia e mesmo sem saber utilizamos uma ferramenta matemática chamada Plano Cartesiano.  
+                </p>
+                <p>
+                  Saber a localização para realizar determinadas atividades é importante para a organização do processo, como estacionar um carro em uma vaga marcada, visitar um amigo ou entregar uma encomenda, quando se vai ao cinema ou ao teatro, em todas essas situações, entre outras, precisamos de coordenadas como as marcas delimitando o local para estacionar ou indicando obstáculos, endereço correto para a entrega de encomendas, e qual o número da poltrona que devemos ocupar. 
+                </p>
+                <p>
+                  Outra aplicação prática do Plano Cartesiano é determinar a localização através da latitude e longitude (coordenadas geográficas) por meio do GPS que é a sigla de Global Positioning System, ou Sistema de Posicionamento Global, esse sistema permite que saibamos nossa localização exata na terra, informando a distância, a altitude, a velocidade entre muitas outras funções importantes.  
+                </p>
+                <p>
+                  O nosso sistema de visão também faz uso do plano cartesiano quando localizamos objetos apenas com os nossos olhos em frações de segundos. Na arquitetura e na construção civil é usado como base para a elaboração da planta de casas e edifícios. Quando tocamos na tela do nosso celular para escolhermos o que queremos acessar no momento. 
+                </p>
+                <p>
+                  O Sistema de Coordenadas Cartesianas, também chamado de Plano Cartesiano, foi criado por René Descartes Filósofo e matemático francês nascido em 1596, com o objetivo de localizar pontos em um plano.  
+                </p>
+                <p>
+                  O Plano Cartesiano é uma ferramenta matemática gráfica formada por duas retas numéricas perpendiculares, cada número real pode ser compreendido como um “endereço” para um ponto da reta: na vertical temos a reta y que indica as Ordenadas e na horizontal a reta x que indica as Abscissas. Os pontos localizados no plano adquirem um posicionamento de acordo com as coordenadas e valores inseridos. 
+                </p>
+                <p> Figura - Plano cartesiano <br>
+
+                  Fonte: https://www.educamaisbrasil.com.br/enem/matematica/plano-cartesiano  </p>
+                  <p>
+                    A partir do plano cartesiano e da localização dos pontos, temos a base para a localização de objetos, pessoas, lugares, informações conforme descrito acima e também para a construção de diversas figuras geométricas.   
+                  </p>
+                  <p>
+                    Os pares ou coordenadas são duplas de números usados para determinar a localização de pontos no plano.  
+                  </p>
+                  <p>
+                    Para localizar um ponto no plano cartesiano, utilizamos a sequência prática.  
+                  </p>
+                  <ul>
+                    <li>    O 1º número do par ordenado deve ser localizado no eixo das abscissas.   </li>
+                    <li>
+                      O 2º número do par ordenado deve ser localizado no eixo das ordenadas. 
+                    </li>
+                  </ul>
+                  <p>
+                    No encontro das perpendiculares aos eixos x e y, por esses pontos, determinamos o ponto procurado.   
+                  </p>
+                  <p>
+                    Um exemplo de localização de pontos no plano cartesiano por meio de coordenadas de alguns pontos estratégicos de uma cidade, em que os valores da abscisa e da ordenada são dados em quilômetros. Além disso, a origem é o centro da cidade.  
+                  </p>
+                  <p>
+                    Vejamos as coordenadas de cada ponto da cidade, seguindo o sentido anti horário:  
+                  </p>
+                  <p>(0, 0) Centro  <br>
+                    (3, 2) Escola  <br>
+                    (-3, 2) Banco  <br>
+                    (-2,-3) Prefeitura  <br>
+                    (3, -2) Igreja  <br>
+
+                  </p>
               </div>
               <p>
                 Observando a situação de Ana Maria, por meio do gráfico construído no plano cartesiano, dentro de seis meses, a dívida dela vai dobrar e, em um ano, será quatro vezes maior do que o valor gasto inicialmente. Isso supera o salário que ela recebe mensalmente, tornando quase impossível o pagamento da dívida. Por isso, devemos ter cuidado com o atraso no pagamento de dívidas e evitar o superendividamento. 
@@ -1556,7 +1649,7 @@
               </p>
                
               <div class="icone caixa praticar">
-                Vamos praticar! 
+                Resolva as atividades propostas e pratique cálculos de juros, montantes e rendimentos. 
               </div>
               <!--  -->
               
@@ -1582,19 +1675,19 @@
               <div class="feedbacks">
                 <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY"
                   style="display: none" >
-                  <i class="fas fa-check"></i> Resposta correta! Você obterá o resultado calculando o valor da taxa e depois acrescentando este valor ao salário da Marisa.
+                  <i class="fas fa-check"></i> Resposta correta! Você calculou o montante corretamente.
                 </p>
                 <p class="f-negativo text-danger mt-2 mb-2 animate__animated animate__shakeX"
                   style="display: none">
-                  <i class="fas fa-times"></i> Resposta Incorreta! Você obterá o resultado calculando o valor do bônus e depois adicionando esse valor ao salário da Marisa.
+                  <i class="fas fa-times"></i> Resposta incorreta! Você calculou apenas os juros do período. Para encontrar a solução, você pode utilizar a fórmula dos juros simples (M=c+c.i.t), considerando o capital igual a 2000, a taxa de juros igual a 0,02 e o tempo igual a 8.
                 </p>
                 <p class="f-negativo text-danger mt-2 mb-2 animate__animated animate__shakeX"
                   style="display: none" >
-                  <i class="fas fa-times"></i> Resposta Incorreta! Você obterá o resultado calculando o valor da taxa e depois acrescentando esse valor ao salário da Marisa.
+                  <i class="fas fa-times"></i> Resposta incorreta! Para encontrar a solução, você pode utilizar a fórmula dos juros simples (M=c+c.i.t), considerando o capital igual a 2000, a taxa de juros igual a 0,02 e o tempo igual a 8.
                 </p>
                 <p class="f-negativo text-danger mt-2 mb-2 animate__animated animate__shakeX"
                   style="display: none" >
-                  <i class="fas fa-times"></i> Resposta Incorreta! Você obterá o resultado calculando o valor da taxa e depois acrescentando esse valor ao salário da Marisa.
+                  <i class="fas fa-times"></i> Resposta incorreta! Para encontrar a solução, você pode utilizar a fórmula dos juros simples (M=c+c.i.t), considerando o capital igual a 2000, a taxa de juros igual a 0,02 e o tempo igual a 8.
                 </p>
               </div>
               <div class="only-print">
@@ -1672,7 +1765,7 @@
                 </tbody>
               </table>
             </div>
-            <p>Figura 6 – Tabela de amortização <br>
+            <p class="text-center">Figura 6 – Tabela de amortização <br>
 
               Fonte: Sesc EAD EJA (2023) </p>
               <p>Qual dos gráficos a seguir demonstra o padrão de decrescimento do saldo devedor? </p>
@@ -1704,19 +1797,19 @@
             <div class="feedbacks">
               <p class="f-negativo text-danger mt-2 mb-2 animate__animated animate__shakeX"
                 style="display: none">
-                <i class="fas fa-times"></i> Resposta Incorreta! Você obterá o resultado calculando o valor do bônus e depois adicionando esse valor ao salário da Marisa.
+                <i class="fas fa-times"></i> Resposta incorreta! Demonstra valores crescentes.
               </p>
               </p>
               <p class="f-negativo text-danger mt-2 mb-2 animate__animated animate__shakeX"
                 style="display: none" >
-                <i class="fas fa-times"></i> Resposta Incorreta! Você obterá o resultado calculando o valor da taxa e depois acrescentando esse valor ao salário da Marisa.
+                <i class="fas fa-times"></i> Resposta incorreta! Demonstra um crescimento exponencial.
               </p>
               <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY"
                 style="display: none" >
-                <i class="fas fa-check"></i> Resposta correta! Você obterá o resultado calculando o valor da taxa e depois acrescentando este valor ao salário da Marisa.
+                <i class="fas fa-check"></i> Resposta correta! O gráfico é linear decrescente.
               <p class="f-negativo text-danger mt-2 mb-2 animate__animated animate__shakeX"
                 style="display: none" >
-                <i class="fas fa-times"></i> Resposta Incorreta! Você obterá o resultado calculando o valor da taxa e depois acrescentando esse valor ao salário da Marisa.
+                <i class="fas fa-times"></i> Resposta incorreta! Demonstra valores crescentes.
               </p>
             </div>
             <div class="only-print">
@@ -1761,6 +1854,18 @@
               </figcaption>
             </figure>
           </button>
+          
+          <div class="feedbacks">
+            <p class="f-negativo text-danger mt-2 mb-2 animate__animated animate__shakeX"
+              style="display: none">
+              <i class="fas fa-times"></i> Resposta incorreta! Um gráfico linear é uma representação geométrica dos montantes em relação ao tempo, em um investimento com taxa de juros simples.
+            </p>
+            </p>
+            <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY"
+              style="display: none" >
+              <i class="fas fa-check"></i> Resposta correta! Você conseguiu identificar que o gráfico na forma de uma exponencial é uma representação geométrica dos montantes em relação ao tempo, em um investimento com taxa de juros compostos.
+            </p>
+          </div>
       </div>
       
             <!-- 4 voltar aqui -->
@@ -1785,6 +1890,21 @@
                 c)   Investimento com taxa de juros compostos de 10% ao ano.  
 
               </button>
+              <div class="feedbacks">
+                <p class="f-negativo text-danger mt-2 mb-2 animate__animated animate__shakeX"
+                  style="display: none">
+                  <i class="fas fa-times"></i> Resposta incorreta! 
+                </p>
+                <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY"
+                  style="display: none" >
+                  <i class="fas fa-check"></i> Resposta correta! Você conseguiu observar que o gráfico que representa o investimento a taxa de juros simples está acima do gráfico que representa o investimento a taxa de juros compostos se considerarmos o período de dez anos. Isso significa que seu montante é superior nesse período.
+                </p>
+                <p class="f-negativo text-danger mt-2 mb-2 animate__animated animate__shakeX"
+                  style="display: none">
+                  <i class="fas fa-times"></i> Resposta incorreta! Comparando os gráficos, é possível observar que o gráfico que representa o investimento com taxa de juros compostos está abaixo do gráfico que representa o investimento com taxa de juros simples, se considerarmos o período de dez anos. Isso significa que seu montante é inferior nesse período.
+                </p>
+                </p>
+              </div>
           </div>
 
 
@@ -1808,10 +1928,10 @@
               </div>
 
               <p>
-                A boa notícia é que existem meios de sair de um superendividamento. Vamos ver algumas sugestões, que exigem de você algumas atitudes. 
+                A boa notícia é que existem meios de sair de um superendividamento, mas eles exigem que você tome algumas atitudes.
+                <span class="no-print" aria-hidden="true"> Clique ou toque para ver algumas sugestões. </span>
               </p>
 
-              <p class="no-print" aria-hidden="true">Clique ou toque para visualizar o conteúdo.</p>
               <div class="accordion painel-gaitinha" id="accordionExample2" aria-hidden="true">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingFour">
@@ -1935,9 +2055,44 @@
                 No <i>mesacast</i> a seguir, você terá uma breve explicação sobre o tema organização e planejamento financeiro, com destaque para a importância de reservar parte do salário para investir em uma poupança. 
               </p>
               
-              <figure class="text-center">
-                <img src="../conteudo/img/podcast.png" class="img-fluid aos-init aos-animate" data-aos="fade-up" alt="">
-              </figure> 
+            <div class="podcast-container no-print">
+              <div class="sesc-audio-player no-print">
+                <audio>
+                  <source src="../../assets/audio/Devastacao_1.mp3" type="audio/mpeg">
+                </audio>
+                <div class="row">
+                  <div class="botoes">
+                    <button title="Tocar" class="btn-play btn-player"></button>
+                    <button title="Pause" class="btn-pause btn-player"></button>
+                    <button title="Transcrição" data-bs-toggle="modal" data-bs-target="#modal-transcricao-audio2"
+                      class="btn-transcricao btn-player"></button>
+                    <div class="timestamp">00:00/00:00</div>
+                  </div>
+                  <div class="barra">
+                    <input type="range" value="0" max="100" step="any">
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          <div class="modal fade" id="modal-transcricao-audio2" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content no-print">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+              </div>
+              <div class="modal-body">
+
+              
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
 
               <div class="sr-only print">
                 <p>Construindo um Futuro Financeiro Sólido: Organização, Planejamento e Investimento </p>
@@ -1981,8 +2136,12 @@
 
               <p>Agora que já temos o conhecimento de algumas estratégias para sair do endividamento e poupar, é importante consumir sem excessos e adotar algumas medidas simples que, a curto e longo prazo, podem garantir que as pessoas continuem tendo acesso a bens essenciais.   </p>
 
+              <p>
+                Desse modo, o Instituto Akatu (2011), uma organização sem fins lucrativos que faz ações voltadas para o consumo consciente, apresenta então os 12 princípios do consumo consciente. <span class="no-print" aria-hidden="true">Clique ou toque para conhecer cada um.</span> 
+              </p>
+
               <div class="no-print" aria-hidden="true">
-                <p>Clique ou toque para visualizar o conteúdo.</p>
+                <!-- <p>Clique ou toque para visualizar o conteúdo.</p> -->
                 <div class="painel2">
                   <button type="button" class="bt-painel2 bt-planeje" data-bs-toggle="modal" data-bs-target="#modal-planeje"><div class="bt-text">Planeje suas compras </div></button>
                   <button type="button" class="bt-painel2 bt-avalie" data-bs-toggle="modal" data-bs-target="#modal-avalie"><div class="bt-text">Avalie os impactos de seu consumo </div></button>
@@ -2222,6 +2381,7 @@
               </p>
 
               <div class="icone caixa praticar">
+                Resolva as atividades propostas e entenda mais sobre cálculos de juros e superendividamento. 
                 
               </div>
                 
@@ -2242,6 +2402,25 @@
               <button class="alt-e btn-sesc" title="alternativa: ">
                 d) Tomar consciência da situação; sortear as dívidas para pagamento e aumentar os gastos.  
               </button>
+              
+              <div class="feedbacks">
+                <p class="f-negativo text-danger mt-2 mb-2 animate__animated animate__shakeX"
+                  style="display: none">
+                  <i class="fas fa-times"></i> Resposta incorreta! Para sair do superendividamento, devemos reduzir os gastos.
+                </p>
+                <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY"
+                  style="display: none" >
+                  <i class="fas fa-check"></i> Resposta correta! Parabéns, você identificou as opções que Paulo deve seguir para sair do superendividamento.
+                </p>
+                <p class="f-negativo text-danger mt-2 mb-2 animate__animated animate__shakeX"
+                  style="display: none">
+                  <i class="fas fa-times"></i>Resposta incorreta! Para sair do superendividamento, não devemos fazer novas dívidas.
+                </p>
+                <p class="f-negativo text-danger mt-2 mb-2 animate__animated animate__shakeX"
+                  style="display: none">
+                  <i class="fas fa-times"></i>Resposta incorreta! Para sair do superendividamento, sugere-se mapear as dívidas e reduzir os gastos.
+                </p>
+              </div>
           </div>
           <!-- 2 voltar aqui -->
           <div class="esquemaDaBru">
@@ -2260,6 +2439,24 @@
             <button class="alt-e btn-sesc" title="alternativa: ">
               d)  Zélia não deve aceitar a linha de crédito oferecida pelo gerente e pagar somente quando conseguir os R$ 1.200,00.  
             </button>
+            <div class="feedbacks">
+              <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY"
+                style="display: none" >
+                <i class="fas fa-check"></i> Resposta correta! Uma das orientações para sair do endividamento é renegociar as dívidas em condições mais vantajosas para seu pagamento.
+              </p>
+              <p class="f-negativo text-danger mt-2 mb-2 animate__animated animate__shakeX"
+                style="display: none">
+                <i class="fas fa-times"></i> Resposta incorreta! Uma das orientações para sair do endividamento é não fazer novas dívidas.
+              </p>
+              <p class="f-negativo text-danger mt-2 mb-2 animate__animated animate__shakeX"
+                style="display: none">
+                <i class="fas fa-times"></i> Resposta incorreta! Uma das orientações para sair do endividamento é renegociar as dívidas em condições mais vantajosas para seu pagamento.
+              </p>
+              <p class="f-negativo text-danger mt-2 mb-2 animate__animated animate__shakeX"
+                style="display: none">
+                <i class="fas fa-times"></i> Resposta incorreta! Uma das orientações para sair do endividamento é renegociar as dívidas em condições mais vantajosas para seu pagamento.
+              </p>
+            </div>
         </div>
 
               <!-- <div class="paginacao-sesc-eja no-print">

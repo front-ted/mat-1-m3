@@ -755,9 +755,9 @@ table.sesc th {
   }
 }
 @media screen and (max-width: 991px) {
-  .bg-sesc {
+  /* .bg-sesc {
     background: white;
-  }
+  } */
 }
 
 /*large pra cima*/

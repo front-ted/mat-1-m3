@@ -8,6 +8,33 @@ p{word-wrap: break-word;}
 .imgMaxwi{
   max-width: 650px;
 }
+/* podcast */
+
+.texto-podcast{
+  position: relative;
+  width: 460px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 30px;
+  border: #0d90a8 solid 3px;
+  z-index: 4;
+  margin: 20px auto -110px auto;
+}
+
+.podcast-container {
+  width: 100%;
+  max-width: 862px;
+  height: 387px;
+  /* ../conteudo/img/podcast.png */
+  background-image: url('../../conteudo/img/podcast.png');
+  background-repeat: no-repeat;
+  margin: 50px auto 30px auto;
+  display: flex;
+  align-items: flex-end;
+  
+}
+
+/* podcast */
 /* card rotate */
 .cardpreco, .cardpreco2{
   position: absolute;
@@ -29,7 +56,6 @@ p{word-wrap: break-word;}
 }
 /*  */
 .caixa{
->>>>>>> dfceaca0e22506715fb788c738d7e49a44aa6297
   /* border-color: #00828b; */
   margin: 20px auto;
   border: none;
@@ -93,6 +119,34 @@ p{word-wrap: break-word;}
   margin-right: 5px;
 }
 
+.img-pessoas{
+  width: 100%;
+  max-width: 550px !important;
+  display: block;
+  margin: 0 auto;
+}
+/* bts */
+.bt_natalia{
+  background-image: url('../../conteudo/img/bt_natalia.png');
+  width: 340px;
+  height: 373px;
+  cursor: pointer;
+}
+.bt_natalia:hover{
+  /* background-image: url('../../conteudo/img/bt_natalia_hv.png'); */
+}
+.bt_paulo{
+  cursor: pointer;
+  background-image: url('../../conteudo/img/bt_paulo.png');
+  width: 394px;
+  height: 372px;
+}
+.bt_paulo:hover{
+  /* background-image: url('../../conteudo/img/bt_paulo_hv.png'); */
+}
+.infografico_creditos{
+  width: 300px;
+}
 /*menu*/
 .dropdown-menu {
   background: #707070;
