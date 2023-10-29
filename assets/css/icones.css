@@ -15,7 +15,7 @@
     width: 96px;
     height: 115px;
     top: -20px;
-    left: -50px;
+    /* left: -50px; */
 }
 
 .icone.praticar::before{
@@ -23,7 +23,11 @@
     width: 90px;
     height: 115px;
     top: -20px;
-    left: -45px;
+    /* left: -45px; */
+}
+
+.caixa.icone {
+    padding-left: 80px;
 }
 
 .icone.pergunta::before{
@@ -40,7 +44,7 @@
 .icone.atencao::before{
     background-image: url(../img/ico_importante.png);
     width: 105px;
-    left: -60px;
+    /* left: -60px; */
 }
 
 @media print{

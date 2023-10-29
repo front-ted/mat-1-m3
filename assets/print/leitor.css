@@ -845,9 +845,6 @@ iframe, iframe.youtube-pl{
   display: none;
 }
 
-
-
-
 .img-pessoas{
   width: 100%;
   max-width: 550px !important;
@@ -858,7 +855,16 @@ iframe, iframe.youtube-pl{
 .infografico_creditos{
   width: 250px;
 }
-table.sesc td{
+table.sesc td, table.sesc th{
 border: 1px solid black;
 padding: 2px;
-} 
+}
+table.sesc th {
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  text-align: center;
+}
+table.sesc {
+  margin: 0 auto;
+}

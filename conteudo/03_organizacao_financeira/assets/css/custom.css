@@ -267,7 +267,7 @@ footer {
   text-decoration: underline;
 }
 .pagina .img-fluid {
-  margin: 20px 0;
+  margin: 20px auto;
 }
 .instrucao {
   width: 70%;
@@ -456,7 +456,7 @@ footer {
 .bt-planeje {
   background: url("../imgs/painel2_bt1.png") no-repeat;
   top: 64px;
-  left: 160px;
+  left: 63px;
 }
 .bt-planeje:hover {
   background: url("../imgs/painel2_bt1_hover.png") no-repeat;
@@ -464,7 +464,9 @@ footer {
 .bt-avalie {
   background: url("../imgs/painel2_bt2.png") no-repeat;
   top: 67px;
-  left: 365px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 .bt-avalie:hover {
   background: url("../imgs/painel2_bt2_hover.png") no-repeat;
@@ -489,6 +491,10 @@ footer {
   background: url("../imgs/painel2_bt5.png") no-repeat;
   top: 255px;
   left: 274px;
+  
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 .bt-separe:hover {
   background: url("../imgs/painel2_bt5_hover.png") no-repeat;
@@ -496,7 +502,7 @@ footer {
 .bt-use {
   background: url("../imgs/painel2_bt6.png") no-repeat;
   top: 263px;
-  right: 160px;
+  right: 64px;
 }
 .bt-use:hover {
   background: url("../imgs/painel2_bt6_hover.png") no-repeat;
@@ -504,7 +510,7 @@ footer {
 .bt-conheca {
   background: url("../imgs/painel2_bt7.png") no-repeat;
   top: 440px;
-  left: 158px;
+  left: 63px;
 }
 .bt-conheca:hover {
   background: url("../imgs/painel2_bt7_hover.png") no-repeat;
@@ -512,7 +518,10 @@ footer {
 .bt-naocompre {
   background: url("../imgs/painel2_bt8.png") no-repeat;
   top: 437px;
-  left: 367px;
+  
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 .bt-naocompre:hover {
   background: url("../imgs/painel2_bt8_hover.png") no-repeat;
@@ -536,7 +545,11 @@ footer {
 .bt-cobre {
   background: url("../imgs/painel2_bt11.png") no-repeat;
   bottom: 76px;
-  left: 273px;
+  
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+
 }
 .bt-cobre:hover {
   background: url("../imgs/painel2_bt11_hover.png") no-repeat;
@@ -544,7 +557,7 @@ footer {
 .bt-reflita {
   background: url("../imgs/painel2_bt12.png") no-repeat;
   bottom: 65px;
-  right: 159px;
+  right: 64px;
 }
 .bt-reflita:hover {
   background: url("../imgs/painel2_bt12_hover.png") no-repeat;
@@ -564,7 +577,22 @@ footer {
     max-width: 80%;
   }
 }
-
+@media screen and (max-width: 800px){
+  .bt_natalia  {
+    margin: 0 auto;
+    width: 200px;
+    height: 250px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+   .bt_paulo  {
+    margin: 0 auto;
+    width: 230px;
+    height: 250px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
 @media screen and (max-width: 700px){
   .cardpreco, .cardpreco2{
     width: 120px;
@@ -572,6 +600,10 @@ footer {
   }
 }
 @media screen and (max-width: 580px){
+  
+.pagina .img-fluid, .img-responsive {
+  width: 100%;
+}
   .painel1{
     background-image: url('../imgs/painel1_mobile.png');
     background-size: cover;
@@ -799,7 +831,7 @@ a.btn-sesc {
   top: 15px;
   left: 15px;
   position: fixed;
-  z-index: 99999;
+  z-index: 1;
 }
 .dropdown-menu {
   background: unset;
