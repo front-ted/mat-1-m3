@@ -4,6 +4,14 @@ body.bg-sesc{
   background-attachment: fixed;
   background-size: cover;
 }
+#logocnc{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 80px;
+  background-color: #00A7B3;
+  padding: 8px;
+}
 .menu{
   background: url('../imgs/menu.png') no-repeat;
   width: 872px;
@@ -253,6 +261,13 @@ a:hover i{color: #fff;}
   .modal-video {
     background-color: #008085;
     background-image: none;
+  }
+  #logocnc{
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    width: 40px;
+    padding: 2px;
   }
 }
 @media screen and (max-width: 550px){
