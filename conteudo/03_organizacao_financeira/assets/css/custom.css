@@ -684,6 +684,15 @@ footer {
     top: unset;
     left: 40px;
   }
+  .bt-text{
+    margin-top: -90px;
+    position: relative;
+  }
+  .btsmodal-1{
+    width: 260px;
+    display: block !important;
+    margin: 0 auto !important;
+  }
 }
 
 .paginacao-sesc-eja {
