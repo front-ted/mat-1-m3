@@ -628,9 +628,9 @@ footer {
     margin-top: 0px;
   }
   
-.pagina .img-fluid, .img-responsive {
-  width: 100%;
-}
+  .pagina .img-fluid, .img-responsive {
+    width: 100%;
+  }
   .painel1{
     background-image: url('../imgs/painel1_mobile.png');
     background-size: cover;
@@ -719,6 +719,19 @@ footer {
     width: 260px;
     display: block !important;
     margin: 0 auto !important;
+  }
+}
+
+@media screen and (max-width: 505px){
+  .painel2 button:nth-child(2n+1){
+    /* background-color: red; */
+    margin: 0 0 20px 0;
+  }
+  .painel2 button:nth-child(2n+2){
+    /* background-color: blue; */
+    right: 0;
+    left: 63px !important;
+    margin: 0 0 20px 0;
   }
 }
 
