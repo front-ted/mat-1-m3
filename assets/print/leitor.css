@@ -223,6 +223,9 @@
   .img-pessoas{
     display: block !important;
   }
+  .imgInfograficoPrint{
+    width: 350px;
+  }
   
   .pagina ins	{
   text-decoration: underline;	

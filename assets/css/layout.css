@@ -751,6 +751,7 @@ table.sesc th {
 /*iphones 5 pra baixo da vida*/
 @media screen and (max-width: 320px) {
   header.sesc {
+  background-image: url(../img/cabecalho/cabecalho.png);
     height: 60px;
   }
 }
@@ -775,5 +776,11 @@ table.sesc th {
   header.sesc {
     height: auto;
     background: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  header.sesc {
+    background-image: url(../img/cabecalho/matematica.png);
+    height: 60px;
   }
 }
