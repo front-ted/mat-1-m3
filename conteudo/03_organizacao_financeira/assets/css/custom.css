@@ -31,6 +31,9 @@ p{word-wrap: break-word;}
   margin: 50px auto 30px auto;
   display: flex;
   align-items: flex-end;
+
+  height: 344px;
+  margin: 50px auto 0px auto
   
 }
 
@@ -124,6 +127,7 @@ p{word-wrap: break-word;}
   max-width: 550px !important;
   display: block;
   margin: 0 auto;
+  display: block !important;
 }
 /* bts */
 .bt_natalia{
