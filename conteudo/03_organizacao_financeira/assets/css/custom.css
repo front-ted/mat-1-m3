@@ -719,6 +719,10 @@ footer {
 }
 
 @media screen and (max-width: 505px){
+  .dropdown button {
+    top: 82px !important;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+  }
   .painel2 button:nth-child(2n+1){
     /* background-color: red; */
     margin: 0 0 20px 0;
@@ -731,6 +735,19 @@ footer {
   }
 }
 
+@media screen and (max-width: 450px){
+  header.sesc {
+    background-position-x: -137px;
+  }
+}
+@media screen and (max-width: 420px){
+  header.sesc {
+    background-position-x: -139px;
+    background-size: 573px;
+    background-repeat: no-repeat;
+    background-color: #00828A;
+  }
+}
 .paginacao-sesc-eja {
   text-align: center;
   padding-top: 40px;
