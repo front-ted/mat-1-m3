@@ -11,11 +11,12 @@ p{word-wrap: break-word;}
 .titulo-conteudo{
   background-color: transparent;
   position: absolute;
-  top: 70px;
+  top: 110px;
   right: 10%;
 }
 .pagina{
   padding-top: 75px !important;
+  overflow: hidden;
 }
 .pagina .container{
   padding-bottom: 80px;
@@ -32,6 +33,7 @@ p{word-wrap: break-word;}
   max-width: 1120px;
   background-color: #fff;
   padding-bottom: 200px;
+  padding-top: 75px;
 }
 
 /* podcast */
@@ -379,7 +381,7 @@ footer {
 }
 .sesc-audio-player.personagem {
   background: url("../imgs/ilustracao_3.png") no-repeat;
-  width: 332px;
+  width: 332px !important;
   height: 368px;
   margin: 20px auto;
   position: relative;
