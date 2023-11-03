@@ -8,6 +8,32 @@ p{word-wrap: break-word;}
 .imgMaxwi{
   max-width: 650px;
 }
+.titulo-conteudo{
+  background-color: transparent;
+  position: absolute;
+  top: 70px;
+  right: 10%;
+}
+.pagina{
+  padding-top: 75px !important;
+}
+.pagina .container{
+  padding-bottom: 80px;
+}
+
+/*fim do menu*/
+.estiloReferencias {
+  background-image: url(../../conteudo/img/referencias.jpg);
+  background-size: 100%;
+  padding-top: 0px !important;
+  padding-bottom: 0 !important;
+}
+.estiloReferencias .container {
+  max-width: 1120px;
+  background-color: #fff;
+  padding-bottom: 200px;
+}
+
 /* podcast */
 
 .texto-podcast{
@@ -579,6 +605,10 @@ footer {
   max-width: 50%;
 }
 @media screen and (max-width: 1080px) {
+  .titulo-conteudo{
+    top: 55px !important;
+    right: 10%;
+  }
   .cardpreco{
     left: 30px;
   }
@@ -829,6 +859,7 @@ footer {
 
 .footerPagination {
   display: block;
+  margin-top: -70px;
 }
 .pagination {
   justify-content: center;
@@ -967,15 +998,4 @@ a.btn-sesc {
   position: fixed;
   top: 0;
   left: 0;
-}
-
-/*fim do menu*/
-.estiloReferencias {
-  background-image: url(../../conteudo/img/referencias.jpg);
-  background-size: 100%;
-}
-.estiloReferencias .container {
-  max-width: 1120px;
-  background-color: #fff;
-  padding-bottom: 50px;
 }
