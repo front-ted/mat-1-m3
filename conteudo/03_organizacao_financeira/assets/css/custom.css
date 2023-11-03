@@ -742,6 +742,14 @@ footer {
 }
 @media screen and (max-width: 420px){
   header.sesc {
+    background-position-x: -117px;
+    background-size: 573px;
+    background-repeat: no-repeat;
+    background-color: #00828A;
+  }
+}
+@media screen and (max-width: 400px){
+  header.sesc {
     background-position-x: -139px;
     background-size: 573px;
     background-repeat: no-repeat;
