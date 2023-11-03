@@ -152,6 +152,7 @@ p{word-wrap: break-word;}
 .infografico_creditos, .infografico_creditos_mob{
   width: 300px;
   max-width: 300px;
+  margin-bottom: 20px;
 }
 .infografico_creditos, .infog_juros_mob, .infografico_juros2_mob{
   margin-bottom: 20px;
@@ -592,6 +593,13 @@ footer {
   }
 }
 @media screen and (max-width: 800px){
+  .podcast-container{
+    height: 300px;
+    margin-top: 30px;
+  }
+  .sesc-audio-player{
+    margin-bottom: 70px !important;
+  }
   .paragrafoM{
     margin-top: 120px;
   }
@@ -611,6 +619,13 @@ footer {
   }
 }
 @media screen and (max-width: 700px){
+  .podcast-container{
+    height: 250px;
+    margin-top: 20px;
+  }
+  .sesc-audio-player{
+    margin-bottom: 45px !important;
+  }
   .paragrafoM{
     margin-top: 80px;
   }
@@ -619,7 +634,23 @@ footer {
     left: 20px;
   }
 }
+@media screen and (max-width: 650px){
+  .podcast-container{
+    height: 230px;
+    margin-top: 20px;
+  }
+  .sesc-audio-player{
+    width: 150px !important;
+  }
+}
 @media screen and (max-width: 580px){
+  .podcast-container{
+    height: 200px;
+    margin-top: 20px;
+  }
+  .sesc-audio-player{
+    margin-bottom: 35px !important;
+  }
   .paragrafoM{
     margin-top: 0px;
   }
@@ -660,7 +691,7 @@ footer {
   .painel2 {
     transform: unset;
     margin-left: auto;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 20px;
     background: unset;
     width: 100%;
@@ -670,8 +701,12 @@ footer {
     justify-content: space-evenly;
   }
   .bt-painel2 {
+    /* width: 120px; */
     position: unset;
     margin-bottom: 20px;
+    background-size: 80% !important;
+    background-position-x: center;
+    background-position-y: 20px;
   }
   .carousel .carousel-item img {
     margin-left: -82%;
@@ -719,6 +754,16 @@ footer {
 }
 
 @media screen and (max-width: 505px){
+  
+  .podcast-container{
+    height: 180px;
+  }
+  .sesc-audio-player{
+    margin-bottom: 22px !important;
+  }
+  .paginas{
+    overflow: hidden;
+  }
   .dropdown button {
     top: 82px !important;
     filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
