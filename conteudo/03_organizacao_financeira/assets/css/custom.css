@@ -101,7 +101,17 @@ p{word-wrap: break-word;}
 .painel-gaitinha .accordion-item {
   margin-bottom: 15px;
 }
-
+.tooltip-link{    
+  text-decoration: underline;
+  text-decoration-color: blue;}
+  
+.bt-tooltip {
+  border: none;
+  border-bottom: 2px dashed;
+  background: unset;
+  padding: 0;
+  
+}
 .box1,
 .box2 {
   border-radius: 10px;
@@ -353,12 +363,7 @@ footer {
   background-size: 15px;
 }
 
-.link-tooltip {
-  border-bottom: 2px solid white;
-  text-decoration: none;
-  font-weight: normal;
-  color: unset;
-}
+
 
 .bt-modal {
   width: 260px;
